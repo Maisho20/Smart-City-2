@@ -61,7 +61,7 @@
                     <li><a class="nav-link scrollto" href="#features">Features</a></li>
                     <li><a class="nav-link scrollto" href="#services">Services</a></li>
                     <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-                    <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="#portfolio">Smart City</a></li>
                     <li><a class="nav-link scrollto" href="#recent-blog-posts">Blog</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                     <li><a class="getstarted scrollto"
@@ -831,11 +831,11 @@
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
-                    <h2>Portfolio</h2>
+                    <h2>Smart City</h2>
                     <p>Check our latest work</p>
                 </header>
 
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
+<!--                <div class="row" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
@@ -844,7 +844,7 @@
                             <li data-filter=".filter-web">Web</li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -853,7 +853,7 @@
                             <img src="{{ asset('Portfolio/img/Medilab-bootstrap-website-template.png') }}"
                                 class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Medilab</h4>
+                                <h4>Smart Environment</h4>
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="{{ asset('Portfolio/img/Medilab-bootstrap-website-template.png') }}"
@@ -870,7 +870,7 @@
                             <img src="{{ asset('Portfolio/img/OnePage-bootstrap-website-template.png') }}"
                                 class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>OnePage</h4>
+                                <h4>Smart Governance</h4>
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="{{ asset('Portfolio/img/OnePage-bootstrap-website-template.png') }}"
@@ -887,7 +887,7 @@
                             <img src="{{ asset('img/portfolio/portfolio-3.jpg') }}" class="img-fluid"
                                 alt="">
                             <div class="portfolio-info">
-                                <h4>App 2</h4>
+                                <h4>Smart Branding</h4>
                                 <p>App</p>
                                 <div class="portfolio-links">
                                     <a href="{{ asset('img/portfolio/portfolio-3.jpg') }}"
@@ -904,7 +904,7 @@
                             <img src="{{ asset('img/portfolio/portfolio-4.jpg') }}" class="img-fluid"
                                 alt="">
                             <div class="portfolio-info">
-                                <h4>Card 2</h4>
+                                <h4>Smart Economy</h4>
                                 <p>Card</p>
                                 <div class="portfolio-links">
                                     <a href="{{ asset('img/portfolio/portfolio-4.jpg') }}"
@@ -921,7 +921,7 @@
                             <img src="{{ asset('Portfolio/img/Company-bootstrap-website-template.png') }}"
                                 class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Company</h4>
+                                <h4>Smart Living</h4>
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="{{ asset('Portfolio/img/Company-bootstrap-website-template.png') }}"
@@ -938,7 +938,7 @@
                             <img src="{{ asset('img/portfolio/portfolio-6.jpg') }}" class="img-fluid"
                                 alt="">
                             <div class="portfolio-info">
-                                <h4>App 3</h4>
+                                <h4>Smart Society</h4>
                                 <p>App</p>
                                 <div class="portfolio-links">
                                     <a href="{{ asset('img/portfolio/portfolio-6.jpg') }}"
@@ -950,7 +950,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+<!--                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
                             <img src="{{ asset('img/portfolio/portfolio-7.jpg') }}" class="img-fluid"
                                 alt="">
@@ -1003,7 +1003,7 @@
 
                 </div>
 
-            </div>
+            </div> -->
 
         </section>
         <!-- End Portfolio Section -->

@@ -8,6 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar-thumb{
+    background: #ffffff;
+}
+
 :root {
   scroll-behavior: smooth;
 }
@@ -199,7 +208,7 @@ section {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -317,7 +326,7 @@ section {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #012970;

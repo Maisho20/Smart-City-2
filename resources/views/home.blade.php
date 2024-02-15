@@ -2,7 +2,7 @@
 
 @section('content')
     {{-- konten 1 --}}
-    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+    <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
             <img src="{{ asset('Portfolio/img/Medilab-bootstrap-website-template.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -19,7 +19,7 @@
     </div>
 
     {{-- konten 2 --}}
-    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+    <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
             <img src="{{ asset('Portfolio/img/OnePage-bootstrap-website-template.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -36,7 +36,7 @@
     </div>
 
     {{-- konten 3 --}}
-    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -52,7 +52,7 @@
     </div>
 
     {{-- konten 4 --}}
-    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+    <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -68,7 +68,7 @@
     </div>
 
     {{-- konten 5 --}}
-    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+    <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
             <img src="{{ asset('Portfolio/img/Company-bootstrap-website-template.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -85,7 +85,7 @@
     </div>
 
     {{-- konten 6 --}}
-    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -101,7 +101,7 @@
     </div>
 
     {{-- konten 7 --}}
-    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+    <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -117,7 +117,7 @@
     </div>
 
     {{-- konten 7 --}}
-    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+    <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -133,7 +133,7 @@
     </div>
 
     {{-- konten 8 --}}
-    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+    <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-9.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">

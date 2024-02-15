@@ -57,7 +57,7 @@
                 <p>Smart City</p>
             </header>
 
-            {{-- <div class="row" data-aos="fade-up" data-aos-delay="100">
+            {{-- <div class="row">
                 <div class="col-lg-12 d-flex justify-content-center">
                     <ul id="portfolio-flters">
                         <li data-filter="*" class="filter-active">All</li>

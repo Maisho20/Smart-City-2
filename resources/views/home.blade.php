@@ -60,7 +60,7 @@
     {{-- konten 4 --}}
     <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
-            <img src="{{ asset('img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
+            <img src="{{ asset('img/portfolio/eco.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
                 <a href="">
                     <h4>Smart Economy</h4>

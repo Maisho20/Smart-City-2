@@ -4,9 +4,9 @@
     {{-- konten 1 --}}
     <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
-            <img src="{{ asset('Portfolio/img/Medilab-bootstrap-website-template.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('img/portfolio/environment.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>Smart Environment</h4>
+                <a href="#"><h4>Smart Environment</h4></a>
                 <p>Web</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('Portfolio/img/Medilab-bootstrap-website-template.png') }}"
@@ -148,3 +148,4 @@
         </div>
     </div> --}}
 @endsection
+

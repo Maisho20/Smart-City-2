@@ -6,7 +6,7 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/environment.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <a href="#">
+                <a href="">
                     <h4>Smart Environment</h4>
                 </a>
                 <p>Web</p>
@@ -25,7 +25,9 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('img\portfolio\gov.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <a href="#"><h4>Smart Governance</h4>
+                <a href="">
+                    <h4>Smart Governance</h4>
+                </a>
                 <p>Web</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('Portfolio/img/OnePage-bootstrap-website-template.png') }}"
@@ -42,7 +44,9 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>Smart Branding</h4>
+                <a href="">
+                    <h4>Smart Branding</h4>
+                </a>
                 <p>App</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('img/portfolio/portfolio-3.jpg') }}" data-gallery="portfolioGallery"
@@ -58,7 +62,9 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>Smart Economy</h4>
+                <a href="">
+                    <h4>Smart Economy</h4>
+                </a>
                 <p>Card</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('img/portfolio/portfolio-4.jpg') }}" data-gallery="portfolioGallery"
@@ -74,7 +80,9 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('Portfolio/img/Company-bootstrap-website-template.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>Smart Living</h4>
+                <a href="">
+                    <h4>Smart Living</h4>
+                </a>
                 <p>Web</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('Portfolio/img/Company-bootstrap-website-template.png') }}"
@@ -91,7 +99,9 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>Smart Society</h4>
+                <a href="">
+                    <h4>Smart Society</h4>
+                </a>
                 <p>App</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('img/portfolio/portfolio-6.jpg') }}" data-gallery="portfolioGallery"

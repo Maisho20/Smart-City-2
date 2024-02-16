@@ -9,7 +9,9 @@
                 <a href="{{ route('SmartEnv') }}">
                     <h4>Smart Environment</h4>
                 </a>
-                <p>Web</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque et at dolorum sunt commodi vel delectus
+                    reprehenderit perspiciatis perferendis qui. Beatae distinctio delectus quasi consectetur nulla. Sapiente
+                    quo nam adipisci.</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('Portfolio/img/Medilab-bootstrap-website-template.png') }}"
                         data-gallery="portfolioGallery" class="portfokio-lightbox" title="Medilab"><i
@@ -25,10 +27,12 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('img\portfolio\gov.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <a href="">
+                <a href="{{ route('SmartBrand') }}">
                     <h4>Smart Governance</h4>
                 </a>
-                <p>Web</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus maiores iste blanditiis labore id
+                    quos illo quae eligendi possimus, earum at eum ducimus, iusto alias repellendus molestiae tenetur quo
+                    error.</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('Portfolio/img/OnePage-bootstrap-website-template.png') }}"
                         data-gallery="portfolioGallery" class="portfokio-lightbox" title="One Page"><i
@@ -44,10 +48,12 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <a href="">
+                <a href="{{ route('SmartBrand') }}">
                     <h4>Smart Branding</h4>
                 </a>
-                <p>App</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quasi facilis neque, rem fuga sint quod
+                    nulla, quos, voluptas magni harum? Hic vel consequuntur, nostrum eveniet suscipit asperiores corrupti
+                    rerum.</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('img/portfolio/portfolio-3.jpg') }}" data-gallery="portfolioGallery"
                         class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
@@ -65,7 +71,8 @@
                 <a href="">
                     <h4>Smart Economy</h4>
                 </a>
-                <p>Card</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, delectus quidem aut alias deleniti sequi
+                    ad dolores deserunt sed voluptate accusantium, fugit quam iste totam ut qui doloribus. Et, sapiente.</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('img/portfolio/portfolio-4.jpg') }}" data-gallery="portfolioGallery"
                         class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
@@ -83,7 +90,9 @@
                 <a href="">
                     <h4>Smart Living</h4>
                 </a>
-                <p>Web</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque fugiat alias hic minima aliquid!
+                    Voluptatum id sunt ipsum quasi, dolores perferendis corrupti corporis ratione tenetur laudantium
+                    voluptatibus itaque, pariatur et?</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('Portfolio/img/Company-bootstrap-website-template.png') }}"
                         data-gallery="portfolioGallery" class="portfokio-lightbox" title="Company"><i
@@ -102,7 +111,9 @@
                 <a href="">
                     <h4>Smart Society</h4>
                 </a>
-                <p>App</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quod vitae dolores, facere blanditiis
+                    voluptas numquam aliquam aperiam consequuntur cumque ipsam quasi, in quam? Nam veritatis ex impedit
+                    repellat dolores.</p>
                 <div class="portfolio-links">
                     {{-- <a href="{{ asset('img/portfolio/portfolio-6.jpg') }}" data-gallery="portfolioGallery"
                         class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>

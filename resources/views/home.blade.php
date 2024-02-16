@@ -6,7 +6,7 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/environment.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <a href="">
+                <a href="{{ route('SmartEnv') }}">
                     <h4>Smart Environment</h4>
                 </a>
                 <p>Web</p>

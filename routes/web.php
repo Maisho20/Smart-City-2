@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\homeController;
 use App\Http\Controllers\SmartEnviController;
 
 /*
@@ -14,8 +15,9 @@ use App\Http\Controllers\SmartEnviController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+//     return view('home');
+// });
 
+route::get('/', [homeController::class, 'index'])->name('home');
 Route::get('/SmartEnv', [SmartEnviController::class, 'index'])->name('SmartEnv');

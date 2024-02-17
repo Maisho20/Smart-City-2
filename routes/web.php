@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
 use App\Http\Controllers\SmartEnviController;
+use App\Http\Controllers\SmartGovController;
 use App\Http\Controllers\SmartBrandController;
 
 /*
@@ -22,4 +23,5 @@ use App\Http\Controllers\SmartBrandController;
 
 route::get('/', [homeController::class, 'index'])->name('home');
 Route::get('/SmartEnv', [SmartEnviController::class, 'index'])->name('SmartEnv');
+Route::get('/SmartGov', [SmartGovController::class, 'index'])->name('SmartGov');
 Route::get('/SmartBrand', [SmartBrandController::class, 'index'])->name('SmartBrand');

@@ -56,11 +56,14 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/eco.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <a href="">
+                <a href="SmartEco">
                     <h4>Smart Economy</h4>
                 </a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, delectus quidem aut alias deleniti sequi
-                    ad dolores deserunt sed voluptate accusantium, fugit quam iste totam ut qui doloribus. Et, sapiente.
+                <p>
+                    <b>E-AGRIPROP</b>
+                    <br>
+                    E-Agriprop adalah aplikasi yang memudahkan petani dalam mengakses informasi dan pelayanan
+                    pertanian.
                 </p>
             </div>
         </div>
@@ -71,7 +74,7 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('Portfolio/img/Company-bootstrap-website-template.png') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <a href="">
+                <a href="SmartLiv">
                     <h4>Smart Living</h4>
                 </a>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque fugiat alias hic minima aliquid!
@@ -87,7 +90,7 @@
         <div class="portfolio-wrap">
             <img src="{{ asset('img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <a href="">
+                <a href="SmartSoc">
                     <h4>Smart Society</h4>
                 </a>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quod vitae dolores, facere blanditiis

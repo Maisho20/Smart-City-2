@@ -61,7 +61,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-                    <li><a class="nav-link scrollto" href="#features">Alur <b>DESAKU TUNTAS</b></a></li>
+                    <li><a class="nav-link scrollto" href="#features">Alur Program</a></li>
                     <li><a class="nav-link scrollto" href="#services">Kendala V/S Penyelesaian</a></li>
                     {{-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
                     <li><a class="nav-link scrollto" href="#portfolio">Smart City</a></li>

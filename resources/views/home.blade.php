@@ -9,9 +9,11 @@
                 <a href="{{ route('SmartEnv') }}">
                     <h4>Smart Environment</h4>
                 </a>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque et at dolorum sunt commodi vel delectus
-                    reprehenderit perspiciatis perferendis qui. Beatae distinctio delectus quasi consectetur nulla. Sapiente
-                    quo nam adipisci.
+                <p>
+                    <b>Wisata Edukasi & Edu Sampah Cipta Kerja</b>
+                    <br>
+                    Wadah untuk memberikan edukasi seputar operasi pengelolaan TPA sampah dan 
+                    Pengendalian dan pemanfaatan Gas Methane di TPA.
                 </p>
             </div>
         </div>
@@ -43,7 +45,10 @@
                 <a href="{{ route('SmartBrand') }}">
                     <h4>Smart Branding</h4>
                 </a>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quasi facilis neque, rem fuga sint quod
+                <p>
+                    <b>MATIC</b>
+                    <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quasi facilis neque, rem fuga sint quod
                     nulla, quos, voluptas magni harum? Hic vel consequuntur, nostrum eveniet suscipit asperiores corrupti
                     rerum.
                 </p>
@@ -72,14 +77,16 @@
     {{-- konten 5 --}}
     <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
-            <img src="{{ asset('Portfolio/img/Company-bootstrap-website-template.png') }}" class="img-fluid" alt="">
+            <img src="{{ asset('img/portfolio/living.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
                 <a href="SmartLiv">
                     <h4>Smart Living</h4>
                 </a>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque fugiat alias hic minima aliquid!
-                    Voluptatum id sunt ipsum quasi, dolores perferendis corrupti corporis ratione tenetur laudantium
-                    voluptatibus itaque, pariatur et?
+                <p>
+                    <b>SMART health</b>
+                    <br>
+                    SMART health adalah aplikasi pelayanan pada bidang
+                    kesehatan yang promotif, preventif dan kegawat daruratan. 
                 </p>
             </div>
         </div>

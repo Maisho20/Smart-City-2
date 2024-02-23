@@ -40,7 +40,7 @@
     {{-- konten 3 --}}
     <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
-            <img src="{{ asset('img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
+            <img src="{{ asset('img/portfolio/bran.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
                 <a href="{{ route('SmartBrand') }}">
                     <h4>Smart Branding</h4>
@@ -48,9 +48,9 @@
                 <p>
                     <b>MATIC</b>
                     <br>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae quasi facilis neque, rem fuga sint quod
-                    nulla, quos, voluptas magni harum? Hic vel consequuntur, nostrum eveniet suscipit asperiores corrupti
-                    rerum.
+                    MATIC adalah sebuah apilkasi promosi destinasi wisata, pelayanan dan 
+                    pelaku industri wisata yang mampu memberikan informasi, campaign atau
+                    informasi lainnya
                 </p>
             </div>
         </div>
@@ -100,9 +100,11 @@
                 <a href="SmartSoc">
                     <h4>Smart Society</h4>
                 </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quod vitae dolores, facere blanditiis
-                    voluptas numquam aliquam aperiam consequuntur cumque ipsam quasi, in quam? Nam veritatis ex impedit
-                    repellat dolores.
+                <p>
+                    <b>CONTRA WAR</b>
+                    <br>
+                    Sebuah aplikasi untuk memberikan pelayanan kontrasepsi yang tepat
+                    untuk penundaan ataupun pencegahan kehamilan pada pasangan usia subur
                 </p>
             </div>
         </div>

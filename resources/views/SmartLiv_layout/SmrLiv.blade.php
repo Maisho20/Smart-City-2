@@ -61,7 +61,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-                    <li><a class="nav-link scrollto" href="#features">Tujuan Program</a></li>
+                    <li><a class="nav-link scrollto" href="#features">Inovasi-inovasi</a></li>
                     <li><a class="nav-link scrollto" href="#services">Kendala V/S Penyelesaian</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -81,18 +81,17 @@
         <div id="hero" class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up">E-AGRIPROP</h1>
+                    <h1 data-aos="fade-up">Smart Health</h1>
                     <p style="font-size: 20px!important; text-indent: 45px!important;" data-aos="fade-up"
                         data-aos-delay="400">
-                        <b>Desaku Tuntas,</b>
-                        program administrasi kependudukan Dinas Dukcapil Kabupaten Malang, memudahkan masyarakat dengan
-                        layanan gratis melalui aplikasi website. Diluncurkan pada 9 Maret 2021, kini melibatkan 298
-                        Desa/Kelurahan. Aplikasi baru diperkenalkan pada 7 Juli 2022, menunjukkan komitmen perbaikan.
-                        Hingga September 2022, tercatat rata-rata 500 pengajuan per hari, dengan jaminan penyelesaian
-                        dokumen adminduk dalam 5 hari kerja. Program ini terus berupaya meningkatkan aksesibilitas dan
-                        efisiensi pelayanan administrasi kependudukan.
+                        <b>Smart Health</b>
+                        adalah inovasi pelayanan kesehatan yang memanfaatkan teknologi informasi dan komunikasi
+                        untuk meningkatkan kualitas pelayanan kesehatan masyarakat. Smart Health merupakan
+                        bagian dari Smart Governance yang bertujuan untuk memberikan pelayanan kesehatan yang
+                        lebih baik dan efisien bagi masyarakat. Smart Health juga memungkinkan masyarakat
+                        untuk mendapatkan pelayanan kesehatan tanpa harus datang ke fasilitas kesehatan.
                     </p>
-                    <div data-aos="fade-up" data-aos-delay="600">
+                    {{-- <div data-aos="fade-up" data-aos-delay="600">
                         <div class="text-center text-lg-start">
                             <a href="http://agriprop.malangkab.go.id/" target="_blank"
                                 class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -100,7 +99,7 @@
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
                     <img src="{{ asset('img/Smart/Liv/Liv1.png') }}" class="img-fluid" alt="">
@@ -151,7 +150,7 @@
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up">
-                                <i class="ri-user-follow-line"></i>
+                                <i class="ri-customer-service-fill"></i>
                                 <div>
                                     <h4>Ketiga</h4>
                                     <p>
@@ -161,7 +160,7 @@
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                                <i class="ri-collage-line"></i>
+                                <i class="ri-folder-shield-fill"></i>
                                 <div>
                                     <h4>Keempat</h4>
                                     <p>

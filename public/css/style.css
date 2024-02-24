@@ -450,6 +450,13 @@ section {
   font-size: 26px;
 }
 
+.hero h3{
+    color: #012970;
+    margin: 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+
 .hero .btn-get-started {
   margin-top: 30px;
   line-height: 0;
@@ -510,6 +517,9 @@ section {
     font-size: 32px;
   }
   .hero h2 {
+    font-size: 24px;
+  }
+  .hero h3 {
     font-size: 24px;
   }
   .hero .hero-img img {

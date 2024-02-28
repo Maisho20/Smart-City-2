@@ -251,7 +251,7 @@
                 </div>
 
                 <div class="col-lg-5">
-                    <img src="{{ asset('img/Smart/Gov/Gov2.png') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/Smart/Eco/Eco2.png') }}" class="img-fluid" alt="">
                 </div>
             </div>
         </div>

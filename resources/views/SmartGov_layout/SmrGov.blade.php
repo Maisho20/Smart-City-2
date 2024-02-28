@@ -63,13 +63,6 @@
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
                     <li><a class="nav-link scrollto" href="#features">Alur Program</a></li>
                     <li><a class="nav-link scrollto" href="#services">Kendala V/S Penyelesaian</a></li>
-                    {{-- <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-                    <li><a class="nav-link scrollto" href="#portfolio">Smart City</a></li>
-                    <li><a class="nav-link scrollto" href="#recent-blog-posts">Blog</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li> --}}
-                    {{-- <li><a class="getstarted scrollto"
-                            href="mailto:tounsils@gmail.com?subject=Contacting throu tn76.com&body=I need you to ...">Get
-                            Started</a></li> --}}
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -170,22 +163,6 @@
                                 </div>
                             </div>
 
-                            {{-- <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                                <i class="ri-text-wrap"></i>
-                                <div>
-                                    <h4>Users’ contexts</h4>
-                                    <p>Prioritize and hide content to suit users’ contexts.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                                <i class="ri-pencil-ruler-line"></i>
-                                <div>
-                                    <h4>Design patterns</h4>
-                                    <p>Ease of use for users, quicken their familiarity.</p>
-                                </div>
-                            </div> --}}
-
                         </div>
                     </div>
 
@@ -269,159 +246,13 @@
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
-
-        {{-- <div class="footer-newsletter">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12 text-center">
-                        <h4>Solution</h4>
-                        <p>Ready to embark on your digital journey? Let's bring your vision to life. Reach out to us
-                            today for a free consultation.</p>
-                    </div>
-                    <div class="col-lg-12 text-center">
-                        <a class="getstarted scrollto"
-                            href="mailto:tounsils@gmail.com?subject=Contacting throu tn76.com&body=I need you to ...">Get
-                            Started</a>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-
-        <!-- End reusable part -->
-
-
-        {{-- <div class="footer-top">
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-5 col-md-12 footer-info">
-                        <a href="index.html" class="logo d-flex align-items-center">
-                            <img src="assets/img/logo.png" alt="">
-                            <span>Web and Carto</span>
-                        </a>
-                        <p>
-                            Don't be afraid! We'll walk you through the entire process, hold your hand as much as you
-                            need, and help you through all the technical aspects that may seem scary. We work best with
-                            clients who leave the heavy lifting to us.
-                        </p>
-                        <div class="social-links mt-3">
-                            <a href="https://twitter.com/tn76com" class="twitter">
-                                <i class="bi bi-twitter"></i></a>
-                            <a href="#" class="facebook">
-                                <i class="bi bi-facebook"></i></a>
-                            <a href="#" class="instagram">
-                                <i class="bi bi-instagram bx bxl-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/mohameditounsi/" class="linkedin">
-                                <i class="bi bi-linkedin bx bxl-linkedin"></i></a>
-
-                            <a class="skype" href="skype:tounsi.med.ca">
-                                <i class="bi bi-skype"></i>
-                            </a>
-
-                            <a class="github" href="https://github.com/tounsils">
-                                <i class="bi bi-github"></i>
-                            </a>
-
-                            <a class="whatsapp" href="https://wa.me/+17604814120/?text=Hello, Please ">
-                                <i class="bi bi-whatsapp"></i>
-                            </a>
-
-
-
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-2 col-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="./Documentation/">Documentation</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-6 footer-links">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#services">Web Design</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#services">Web Development</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#services">Product Management</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#services">Marketing</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#services">Graphic Design</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                        <h4>Contact Us</h4>
-                        <p>
-                            San Marcos<br> California USA <br><br>
-                            <strong>Phone:</strong> +1 (760) 481-4120<br>
-                            <strong>Email:</strong> <a
-                                href="mailto:tounsils@gmail.com?subject=Contacting throu tn76.com&body=I need you to ...">tounsils@gmail.com</a><br>
-
-                        <div class="social-links mt-3">
-                            <a href="https://twitter.com/tn76com" class="twitter">
-                                <i class="bi bi-twitter"></i></a>
-                            <a href="#" class="facebook">
-                                <i class="bi bi-facebook"></i></a>
-                            <a href="#" class="instagram">
-                                <i class="bi bi-instagram bx bxl-instagram"></i></a>
-                            <a href="https://www.linkedin.com/in/mohameditounsi/" class="linkedin">
-                                <i class="bi bi-linkedin bx bxl-linkedin"></i></a>
-
-                            <a class="skype" href="skype:tounsi.med.ca">
-                                <i class="bi bi-skype"></i>
-                            </a>
-
-                            <a class="github" href="https://github.com/tounsils">
-                                <i class="bi bi-github"></i>
-                            </a>
-
-                            <a class="whatsapp" href="https://wa.me/+17604814120/?text=Hello, Please ">
-                                <i class="bi bi-whatsapp"></i>
-                            </a>
-
-
-
-
-
-                        </div>
-
-
-
-                        </p>
-
-                    </div>
-
-                </div>
-            </div>
-        </div> --}}
-
         <div class="container">
             <div class="copyright">
                 &copy;
                 <script>
                     document.write(new Date().getFullYear())
                 </script> Copyright <strong><span>All Rights Reserved</span></strong>.
-                {{-- <br><span>Web and Carto tn76.com</span> --}}
             </div>
-            {{-- <div class="credits">
-                Designed with BootstrapMade <br>
-
-                <a href="https://stackoverflow.com/users/10537019/mohamed-tounsi?tab=profile"
-                    class="sb-stackoverflow">
-                    Mohamed I Tounsi (Stack-Overflow)</a>
-
-                <br>
-
-                <a href="https://github.com/tn76com/tn76com.github.io/blob/master/index.html">
-                    <span class="bi bi-github"></span> Edit this page on GitHub</a> Last update <span
-                    id="current-month"></span>
-
-            </div> --}}
         </div>
     </footer>
     <!-- End Footer -->

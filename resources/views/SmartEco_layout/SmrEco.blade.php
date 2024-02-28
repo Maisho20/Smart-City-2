@@ -84,13 +84,10 @@
                     <h1 data-aos="fade-up">E-AGRIPROP</h1>
                     <p style="font-size: 20px!important; text-indent: 45px!important;" data-aos="fade-up"
                         data-aos-delay="400">
-                        <b>Desaku Tuntas,</b>
-                        program administrasi kependudukan Dinas Dukcapil Kabupaten Malang, memudahkan masyarakat dengan
-                        layanan gratis melalui aplikasi website. Diluncurkan pada 9 Maret 2021, kini melibatkan 298
-                        Desa/Kelurahan. Aplikasi baru diperkenalkan pada 7 Juli 2022, menunjukkan komitmen perbaikan.
-                        Hingga September 2022, tercatat rata-rata 500 pengajuan per hari, dengan jaminan penyelesaian
-                        dokumen adminduk dalam 5 hari kerja. Program ini terus berupaya meningkatkan aksesibilitas dan
-                        efisiensi pelayanan administrasi kependudukan.
+                        <b>E-AGRIPROP,</b>
+                        sebuah aplikasi berbasis website yang digunakan untuk mengajukan proposal
+                        di bidang pertanian. Adapun penyuluhan lapangan langsung dari Dinas Tanaman Pangan, Hortikultura 
+                        dan Perkebunan yang nantinya memverifikasi usulan-usulan untuk dikembangkan bersama.
                     </p>
                     <div data-aos="fade-up" data-aos-delay="600">
                         <div class="text-center text-lg-start">

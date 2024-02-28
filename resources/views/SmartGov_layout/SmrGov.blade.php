@@ -92,8 +92,8 @@
                     <p style="font-size: 20px!important; text-indent: 45px!important;" data-aos="fade-up"
                         data-aos-delay="400">
                         <b>Desaku Tuntas,</b>
-                        program administrasi kependudukan Dinas Dukcapil Kabupaten Malang, memudahkan masyarakat dengan
-                        layanan gratis melalui aplikasi website. Diluncurkan pada 9 Maret 2021, kini melibatkan 298
+                        program administrasi kependudukan Dinas Kependudukan dan Pencatatan Sipil Kabupaten Malang, 
+                        memudahkan masyarakat dengan layanan gratis melalui aplikasi website. Diluncurkan pada 9 Maret 2021, kini melibatkan 298
                         Desa/Kelurahan. Aplikasi baru diperkenalkan pada 7 Juli 2022, menunjukkan komitmen perbaikan.
                         Hingga September 2022, tercatat rata-rata 500 pengajuan per hari, dengan jaminan penyelesaian
                         dokumen adminduk dalam 5 hari kerja. Program ini terus berupaya meningkatkan aksesibilitas dan
@@ -141,7 +141,7 @@
                                 <i class="ri-customer-service-2-line"></i>
                                 <div>
                                     <h4>Langkah Pertama</h4>
-                                    <p>Berkas Dibawa ke kantor Desa setempat.</p>
+                                    <p>Berkas dibawa ke kantor desa setempat.</p>
                                 </div>
                             </div>
 
@@ -149,7 +149,7 @@
                                 <i class="ri-device-line"></i>
                                 <div>
                                     <h4>Langkah Kedua</h4>
-                                    <p>Petugas desa memeriksa berkas dan mengajukan ke Dinas DukcapilL melalui
+                                    <p>Petugas desa akan memeriksa berkas dan mengajukan ke Dinas Kependudukan dan Pencatatan Sipil melalui
                                         sistem <b>DESAKU TUNTAS</b>.</p>
                                 </div>
                             </div>
@@ -158,7 +158,7 @@
                                 <i class="ri-user-follow-line"></i>
                                 <div>
                                     <h4>Langkah Ketiga</h4>
-                                    <p>Berkas diroses di Dinas Dukcapil.</p>
+                                    <p>Berkas diproses di Dinas Kependudukan dan Pencatatan Sipil.</p>
                                 </div>
                             </div>
 
@@ -166,7 +166,7 @@
                                 <i class="ri-collage-line"></i>
                                 <div>
                                     <h4>Langkah Keempat</h4>
-                                    <p>Dokumen diambil di Kantor Desa Setempat.</p>
+                                    <p>Dokumen bisa diambil di kantor desa detempat.</p>
                                 </div>
                             </div>
 
@@ -249,7 +249,7 @@
                                 Rencana pelaksanaan adalah peningkatan sosialisasi adanya program <b>DESAKU
                                     TUNTAS</b>
                                 kepada seluruh masyarakat, peremajaan perangkat komputer baik untuk PRD atau untuk
-                                operator Dinas Dukcapil, pemberian bimbingan teknis kepada Petugas Registrasi Desa
+                                operator Dinas Kependudukan dan Pencatatan Sipil, pemberian bimbingan teknis kepada Petugas Registrasi Desa
                                 serta upaya optimalisasi aplikasi dan jaringan server
                             </p>
                         </div>

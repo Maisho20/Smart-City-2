@@ -9,6 +9,6 @@ class SmartBrandController extends Controller
     //
     public function index()
     {
-        return view('SmartBran_layout.SmrBran');
+        return view('brand');
     }
 }

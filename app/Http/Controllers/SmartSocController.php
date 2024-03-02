@@ -8,6 +8,6 @@ class SmartSocController extends Controller
 {
     public function index()
     {
-        return view('SmartSoc_layout.smrsoc');
+        return view('soc');
     }
 }

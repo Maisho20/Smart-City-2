@@ -8,6 +8,6 @@ class SmartLivController extends Controller
 {
     public function index()
     {
-        return view('SmartLiv_layout.smrliv');
+        return view('liv');
     }
 }

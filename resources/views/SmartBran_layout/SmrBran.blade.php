@@ -76,35 +76,19 @@
     <!-- start reusable part -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="about" class="hero d-flex align-items-center">
-
-        @yield('hero')
-
-    </section>
+    @yield('hero')
     <!-- End Hero -->
 
     <!-- ======= Features Section ======= -->
-    <section class="features">
-
-        @yield('tujuan')
-
-    </section>
+    @yield('tujuan')
     <!-- End Features Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="services" class="features">
-
-        @yield('kendala')
-
-    </section>
+    @yield('kendala')
     <!-- End Features Section -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer">
-
-        @include('footer')
-
-    </footer>
+    @include('footer')
     <!-- End Footer -->
 
 

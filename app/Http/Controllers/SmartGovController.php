@@ -9,6 +9,6 @@ class SmartGovController extends Controller
     //
     public function index()
     {
-        return view('SmartGov_layout.SmrGov');
+        return view('gov');
     }
 }

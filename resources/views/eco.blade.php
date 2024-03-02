@@ -1,22 +1,28 @@
-@extends('SmartBran_layout.SmrBran')
+@extends('SmartEco_layout.SmrEco')
 
 @section('hero')
     <div id="hero" class="container">
         <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1 data-aos="fade-up">MATIC</h1>
-                <h3 data-aos="fade-up" data-aos-delay="400">Malang Kabupaten Tourism Intelligence Center</h3>
-                <p style="font-size: 20px!important; text-indent: 45px!important;" data-aos="fade-up" data-aos-delay="600">
-                    <b>MATIC,</b> Platform Big Data & Smart Tourism yang berisikan Data Pelaku Industri Pariwisata
-                    dan Ekonomi Kreatif, Data Event & Program Kegiatan, Showcase Produk dan Statistik Data Ekonomi
-                    Kreatif dan Pariwisata di Kabupaten Malang. <br>
-                    Platform ini juga akan menjadi media promosi destinasi wisata, desa wisata, hospitality dan
-                    pelaku kreatif yang ada di Malang untuk menjual dan memberikan informasi promo, campaign atau
-                    informasi lainnya.
+                <h1 data-aos="fade-up">E-AGRIPROP</h1>
+                <p style="font-size: 20px!important; text-indent: 45px!important;" data-aos="fade-up" data-aos-delay="400">
+                    <b>E-AGRIPROP,</b>
+                    sebuah aplikasi berbasis website yang digunakan untuk mengajukan proposal
+                    di bidang pertanian. Adapun penyuluhan lapangan langsung dari Dinas Tanaman Pangan, Hortikultura
+                    dan Perkebunan yang nantinya memverifikasi usulan-usulan untuk dikembangkan bersama.
                 </p>
+                <div data-aos="fade-up" data-aos-delay="600">
+                    <div class="text-center text-lg-start">
+                        <a href="http://agriprop.malangkab.go.id/" target="_blank"
+                            class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                            <span>Get Started</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                <img src="{{ asset('img/Smart/Brand/Brand1.png') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img/Smart/Eco/Eco1.png') }}" class="img-fluid" alt="">
             </div>
         </div>
     </div>
@@ -124,7 +130,7 @@
         <div class="row feture-tabs" data-aos="fade-up">
             <div class="col-lg-7">
                 <h3>
-                    Kendala <b>V/S</b> Penyelesaian Smart Branding
+                    Kendala <b>V/S</b> Penyelesaian Smart Economyernance
                 </h3>
 
                 <!-- Tabs -->
@@ -146,74 +152,23 @@
                 <div class="tab-content">
 
                     <div class="tab-pane fade show active" id="tab1">
-                        <p class="mb-1">
-                            Kendala yang dihadapi dalam Smart Branding yaitu:
+                        <p style="text-indent: 45px!important;">
+                            Mulai Tahun 2022-2023 dilakukan pemindahan server dari Dinas Tanaman Pangan,
+                            Hortikultura dan Perkebunan ke Dinas Komunikasi dan Informatika sehingga selama 1 tahun
+                            aplikasi ini tidak dapat dioperasikan seperti sebelumnya. Pemindahan server ini
+                            mengakibatkan beberapa menu ataupun fungsi dalam aplikasi tidak dapat berfungsi seperti
+                            seharusnya, sehingga membutuhkan perbaikan.
                         </p>
-                        <div class="d-flex align-items-center mb-0">
-                            <i class="ri-arrow-drop-right-line"></i>
-                            <p class="mb-0">
-                                Koordinasi dan kolaborasi dari berbagai pihak dalam proses perumusan city branding,
-                                mekanisme pelaksanaan smart branding.
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center mb-0">
-                            <i class="ri-arrow-drop-right-line"></i>
-                            <p class="mb-0">
-                                Sumber Daya Manusia yang mendukung pelaksanaan smart branding.
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center mb-0">
-                            <i class="ri-arrow-drop-right-line"></i>
-                            <p class="mb-0">
-                                Konsistensi dalam pelaksanaan rencana eksekusi dan evaluasi secara berkala.
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center mb-0">
-                            <i class="ri-arrow-drop-right-line"></i>
-                            <p class="mb-0">
-                                Pendanaan dalam melaksanakan smart branding yang digunakan untuk penyediaan sarana
-                                dan prasarana, peningkatan SDM, penyebarluasan/promosi melalui berbagai platform.
-                            </p>
-                        </div>
                     </div>
                     <!-- End Tab 1 Content -->
 
                     <div class="tab-pane fade show" id="tab2">
-                        <div class="d-flex align-items-center mb-0">
-                            <i class="ri-check-line"></i>
-                            <p class="mb-0">
-                                Saat ini tahap pengembangan versi 0.2, yang akan dioptimalkan ke aplikasi berbasis
-                                android.
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center mb-0">
-                            <i class="ri-check-line"></i>
-                            <p class="mb-0">
-                                Melaksanakan koordinasi yang intensif dengan Tim Optimalisasi City Branding
-                                Kabupaten Malang.
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center mb-0">
-                            <i class="ri-check-line"></i>
-                            <p class="mb-0">
-                                Menggali beberapa sumber pendanaan non-pemerintah seperti CSR, pola kerjasama
-                                pemerintah dan swasta, dan sebagainya.
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center mb-0">
-                            <i class="ri-check-line"></i>
-                            <p class="mb-0">
-                                Mengoptimalkan platform yang sudah ada untuk mendukung city branding Kabupaten
-                                Malang.
-                            </p>
-                        </div>
-                        <div class="d-flex align-items-center mb-0">
-                            <i class="ri-check-line"></i>
-                            <p class="mb-0">
-                                Menyusun regulasi yang memuat kebijakan dan mekanisme pelaksanaan smart branding
-                                Kabupaten Malang.
-                            </p>
-                        </div>
+                        <p style="text-indent: 45px!important;">
+                            Di tahun 2023 telah dilakukan koordinasi dengan Dinas Kominfo terkait waktu penyelesaian
+                            migrasi server beserta databasenya dan sudah dilakukan migrasi oleh Dinas Kominfo hanya
+                            saja masih perlu adanya perbaikan agar menu ataupun fungsi dalam aplikasi tidak dapat
+                            berfungsi seperti seharusnya.
+                        </p>
                     </div>
                     <!-- End Tab 2 Content -->
                 </div>

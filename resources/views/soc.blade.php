@@ -59,7 +59,7 @@
                         </div>
 
                         <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                            <i class="ri-shake-hands-line"></i>
+                            <i class="ri-service-line"></i>
                             <div>
                                 <h4>Kedua</h4>
                                 <p>
@@ -145,7 +145,7 @@
         <div class="row feture-tabs" data-aos="fade-up">
             <div class="col-lg-7">
                 <h3>
-                    Kendala <b>V/S</b> Penyelesaian Smart Governance
+                    Kendala <b>V/S</b> Penyelesaian Smart Society
                 </h3>
 
                 <!-- Tabs -->
@@ -218,17 +218,6 @@
             <div class="col-lg-5">
                 <img src="{{ asset('img/Smart/Eco/Eco2.png') }}" class="img-fluid" alt="">
             </div>
-        </div>
-    </div>
-@endsection
-
-@section('footer')
-    <div class="container">
-        <div class="copyright">
-            &copy;
-            <script>
-                document.write(new Date().getFullYear())
-            </script> Copyright <strong><span>All Rights Reserved</span></strong>.
         </div>
     </div>
 @endsection

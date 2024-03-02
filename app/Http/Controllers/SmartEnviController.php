@@ -8,6 +8,6 @@ class SmartEnviController extends Controller
 {
     public function index()
     {
-        return view('SmartEnv_layout.SmrEnv');
+        return view('envi');
     }
 }

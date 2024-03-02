@@ -109,7 +109,7 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
 
-        @yield('footer')
+        @include('footer')
     </footer>
     <!-- End Footer -->
 

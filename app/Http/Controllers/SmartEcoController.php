@@ -8,6 +8,6 @@ class SmartEcoController extends Controller
 {
     public function index()
     {
-        return view('SmartEco_layout.smrEco');
+        return view('eco');
     }
 }

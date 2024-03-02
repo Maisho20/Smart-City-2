@@ -108,7 +108,7 @@
         <div class="row feture-tabs" data-aos="fade-up">
             <div class="col-lg-7">
                 <h3>
-                    Kendala <b>V/S</b> Penyelesaian Smart Governance
+                    Kendala <b>V/S</b> Penyelesaian Smart Environment
                 </h3>
 
                 <!-- Tabs -->
@@ -167,17 +167,6 @@
             <div class="col-lg-5">
                 <img src="{{ asset('img/Smart/Eco/Eco2.png') }}" class="img-fluid" alt="">
             </div>
-        </div>
-    </div>
-@endsection
-
-@section('footer')
-    <div class="container">
-        <div class="copyright">
-            &copy;
-            <script>
-                document.write(new Date().getFullYear())
-            </script> Copyright <strong><span>All Rights Reserved</span></strong>.
         </div>
     </div>
 @endsection

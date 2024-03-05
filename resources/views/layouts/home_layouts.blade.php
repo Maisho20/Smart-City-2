@@ -76,20 +76,6 @@
     <script src="{{ asset('vendor/purecounter/purecounter.js') }}"></script>
     <script src="{{ asset('vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
     <script src="{{ asset('vendor/glightbox/js/glightbox.min.js') }}"></script>
-
-    <!-- Template Main JS File -->
-    <script src="{{ asset('js/main.js') }}"></script>
-
-
-    <script>
-        // JavaScript code to get the current month and display it in the HTML page
-        const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
-            'November', 'December'
-        ];
-        const currentDate = new Date();
-        const currentMonth = months[currentDate.getMonth()]; // Get the current month as a string
-        document.getElementById('current-month').textContent = currentMonth + " " + new Date().getFullYear();
-    </script>
 </body>
 
 </html>

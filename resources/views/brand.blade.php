@@ -25,6 +25,30 @@
     </section>
 @endsection
 
+@section('gambar')
+    <div class="container-xxl py-5" id="about">
+        <div class="container">
+            <div class="row g-4 align-items-end mb-4">
+
+                <div class="col-lg-6" data-aos="fade-up">
+                    <img class="img-fluid rounded" src="{{ asset('img/Smart/Brand/Brand2.png') }}"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <img class="img-fluid rounded" src="{{ asset('img/Smart/Brand/Brand3.png') }}"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <img class="img-fluid rounded" src="{{ asset('img/Smart/Brand/Brand4.png') }}"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
+
 @section('tujuan')
     <section class="features">
         <div id="features" class="container" data-aos="fade-up">

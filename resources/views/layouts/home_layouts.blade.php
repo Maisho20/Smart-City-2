@@ -57,11 +57,7 @@
                 <p>Smart City</p>
             </header>
 
-            <div class="row gy-4 portfolio-container animate__animated animate__fadeInUp">
-
-                @yield('content')
-
-            </div>
+            @yield('content')
         </div>
     </section>
 

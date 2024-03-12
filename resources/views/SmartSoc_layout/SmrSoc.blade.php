@@ -86,6 +86,8 @@
 
     @yield('wadool')
 
+    @yield('wadool-2')
+
     <!-- ======= Features Section ======= -->
     @yield('kendala')
     <!-- End Features Section -->

@@ -44,7 +44,7 @@
                 <div class="row">
 
                     <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-                        <img src="{{ asset('img/features-3.png') }}" class="img-fluid p-4" alt="">
+                        <img src="{{ asset('img/Smart/Soc/Soc3.png') }}" class="img-fluid p-2" alt="">
                     </div>
 
                     <div class="col-xl-8 d-flex content">
@@ -140,6 +140,60 @@
                 </div>
             </div>
         </div>
+    </section>
+@endsection
+
+@section('wadool-2')
+    <section id="testimonials" class="testimonials">
+
+        <div class="container" data-aos="fade-up">
+
+            <header class="section-header">
+                <p>WADOOL</p>
+            </header>
+
+            <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('img/Smart/Soc/wadol4.jpg') }}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('img/Smart/Soc/wadol1.jpg') }}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('img/Smart/Soc/wadol2.jpg') }}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="profile mt-auto">
+                                <img src="{{ asset('img/Smart/Soc/wadol3.jpg') }}" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
     </section>
 @endsection
 

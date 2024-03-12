@@ -26,7 +26,7 @@
 @endsection
 
 @section('gambar')
-    <div class="container-xxl py-5" id="about">
+    {{-- <div class="container-xxl py-5" id="about">
         <div class="container">
             <div class="row g-4 align-items-end mb-4">
 
@@ -44,6 +44,33 @@
                     <img class="img-fluid rounded" src="{{ asset('img/Smart/Brand/Brand4.png') }}"
                         style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                 </div>
+            </div>
+        </div>
+    </div> --}}
+    <div class="container">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row pt-5" data-aos="fade-up">
+            <div class="col-md-5">
+                <img class="img-fluid rounded" src="{{ asset('img/Smart/Brand/Brand2.png') }}"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row pt-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-6 col-md-6"></div>
+            <div class="col-md-5">
+                <img class="img-fluid rounded" src="{{ asset('img/Smart/Brand/Brand3.png') }}"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+            </div>
+        </div>
+
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row pt-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-md-5">
+                <img class="img-fluid rounded" src="{{ asset('img/Smart/Brand/Brand4.png') }}"
+                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
             </div>
         </div>
     </div>

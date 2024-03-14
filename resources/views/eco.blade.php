@@ -46,25 +46,25 @@
 
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                                <i class="ri-customer-service-2-line"></i>
+                                <i class="ri-search-eye-line"></i>
                                 <div>
                                     <h4>Pertama</h4>
                                     <p>
                                         Menjaring sebanyak mungkin usulan-usulan dari daerah yang potensial untuk
-                                        dikembangkan, mempercepat pengiriman data proposal dari seluruh desa/kecamatan
-                                        melalui mantri tani/petugas penyuluh lapangan ke Dinas Tanaman Pangan,
+                                        dikembangkan, mempercepat pengiriman data proposal dari seluruh desa / kecamatan
+                                        melalui mantri tani / petugas penyuluh lapangan ke Dinas Tanaman Pangan,
                                         Hortikultura dan Perkebunan untuk diverifikasi.
                                     </p>
                                 </div>
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                                <i class="ri-device-line"></i>
+                                <i class="ri-team-line"></i>
                                 <div>
                                     <h4>Kedua</h4>
                                     <p>
                                         Terwujudnya proses perencanaan bottom up yang berasal dari bawah (kelompok
-                                        tani/gabungan kelompok tani) dengan dukungan e-agriprop sesuai dengan peraturan
+                                        tani / gabungan kelompok tani) dengan dukungan e-agriprop sesuai dengan peraturan
                                         perundang-undangan yang berkaitan dengan pedoman pemberian dana hibah daerah
                                         terutama pada aspek perencanaan.
                                     </p>
@@ -72,7 +72,7 @@
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up">
-                                <i class="ri-user-follow-line"></i>
+                                <i class="ri-focus-2-line"></i>
                                 <div>
                                     <h4>Ketiga</h4>
                                     <p>
@@ -83,7 +83,7 @@
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                                <i class="ri-collage-line"></i>
+                                <i class="ri-folder-chart-2-line"></i>
                                 <div>
                                     <h4>Keempat</h4>
                                     <p>
@@ -94,7 +94,7 @@
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                                <i class="ri-text-wrap"></i>
+                                <i class="ri-file-paper-2-line"></i>
                                 <div>
                                     <h4>Kelima</h4>
                                     <p>
@@ -105,7 +105,7 @@
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                                <i class="ri-pencil-ruler-line"></i>
+                                <i class="ri-arrow-up-circle-line"></i>
                                 <div>
                                     <h4>Keenam</h4>
                                     <p>Meningkatkan efisiensi dan efektivitas pengalokasian anggaran.</p>

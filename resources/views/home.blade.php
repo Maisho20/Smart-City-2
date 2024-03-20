@@ -137,7 +137,7 @@
                 <img src="{{ asset('img/portfolio/socIcn.png') }}"
                     class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt="" width="200">
 
-                <img src="{{ asset('img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
+                <img src="{{ asset('img/portfolio/p.jpg') }}" class="img-fluid" alt="">
 
                 <div class="portfolio-info">
                     <a href="SmartSoc">

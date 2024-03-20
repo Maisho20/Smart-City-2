@@ -104,7 +104,7 @@
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                                <i class="ri-device-line"></i>
+                                <i class="ri-profile-line"></i>
                                 <div>
                                     <h4>Kedua</h4>
                                     <p>
@@ -117,7 +117,7 @@
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up">
-                                <i class="ri-user-follow-line"></i>
+                                <i class="ri-account-box-line"></i>
                                 <div>
                                     <h4>Ketiga</h4>
                                     <p>
@@ -128,7 +128,7 @@
                             </div>
 
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                                <i class="ri-collage-line"></i>
+                                <i class="ri-stack-line"></i>
                                 <div>
                                     <h4>Keempat</h4>
                                     <p>

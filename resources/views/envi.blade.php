@@ -36,7 +36,7 @@
                 <div class="row">
 
                     <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-                        <img src="{{ asset('img/features-3.png') }}" class="img-fluid p-4" alt="">
+                        <img src="{{ asset('img/Smart/Envi/environ.png') }}" class="img-fluid p-4" alt="">
                     </div>
 
                     <div class="col-xl-8 d-flex content">

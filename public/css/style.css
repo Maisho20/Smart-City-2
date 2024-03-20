@@ -1120,7 +1120,7 @@ section {
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.90);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -1134,6 +1134,10 @@ section {
 .portfolio .portfolio-wrap img {
   transition: 1s;
 }
+
+.portfolio .portfolio-wrap .position-absolute {
+    transition: 1s;
+  }
 
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
@@ -1223,6 +1227,10 @@ section {
 
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.1);
+}
+
+.portfolio .portfolio-wrap:hover .position-absolute {
+    transform: scale(1.1);
 }
 
 .portfolio .portfolio-wrap:hover::before {

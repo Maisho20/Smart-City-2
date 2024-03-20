@@ -5,10 +5,14 @@
         {{-- konten 1 --}}
         <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-                {{-- <div class="col-lg-2">
-                    <img src="{{ asset('img/portfolio/envIcn.png') }}" class="img-fluid" alt="">
-                </div> --}}
+
+                <img src="{{ asset('img/portfolio/envIcn.png') }}"
+                    class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt="" width="80">
+                <img src="{{ asset('img/portfolio/envIcn.png') }}"
+                    class="col-lg-3 position-absolute pt-3 ps-3 d-none d-md-block img-fluid" alt="" width="200">
+
                 <img src="{{ asset('img/portfolio/environment.jpg') }}" class="img-fluid" alt="">
+
                 <div class="portfolio-info">
                     <a href="{{ route('SmartEnv') }}">
                         <h4>Smart Environment</h4>
@@ -26,7 +30,14 @@
         {{-- konten 2 --}}
         <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
+
+                <img src="{{ asset('img/portfolio/govIcn.png') }}"
+                    class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt="" width="80">
+                <img src="{{ asset('img/portfolio/govIcn.png') }}"
+                    class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt="" width="200">
+
                 <img src="{{ asset('img\portfolio\gov.jpg') }}" class="img-fluid" alt="">
+
                 <div class="portfolio-info">
                     <a href="{{ route('SmartGov') }}">
                         <h4>Smart Governance</h4>
@@ -44,7 +55,14 @@
         {{-- konten 3 --}}
         <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
+
+                <img src="{{ asset('img/portfolio/brndIcn.png') }}"
+                    class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt="" width="80">
+                <img src="{{ asset('img/portfolio/brndIcn.png') }}"
+                    class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt="" width="200">
+
                 <img src="{{ asset('img/portfolio/bran.jpg') }}" class="img-fluid" alt="">
+
                 <div class="portfolio-info">
                     <a href="{{ route('SmartBrand') }}">
                         <h4>Smart Branding</h4>
@@ -63,7 +81,14 @@
         {{-- konten 4 --}}
         <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
+
+                <img src="{{ asset('img/portfolio/ecoIcn.png') }}"
+                    class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt="" width="80">
+                <img src="{{ asset('img/portfolio/ecoIcn.png') }}"
+                    class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt="" width="200">
+
                 <img src="{{ asset('img/portfolio/eco.jpg') }}" class="img-fluid" alt="">
+
                 <div class="portfolio-info">
                     <a href="SmartEco">
                         <h4>Smart Economy</h4>
@@ -81,7 +106,14 @@
         {{-- konten 5 --}}
         <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
+
+                <img src="{{ asset('img/portfolio/livIcn.png') }}"
+                    class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt="" width="80">
+                <img src="{{ asset('img/portfolio/livIcn.png') }}"
+                    class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt="" width="200">
+
                 <img src="{{ asset('img/portfolio/living.jpg') }}" class="img-fluid" alt="">
+
                 <div class="portfolio-info">
                     <a href="SmartLiv">
                         <h4>Smart Living</h4>
@@ -99,7 +131,14 @@
         {{-- konten 6 --}}
         <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
+
+                <img src="{{ asset('img/portfolio/socIcn.png') }}"
+                    class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt="" width="80">
+                <img src="{{ asset('img/portfolio/socIcn.png') }}"
+                    class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt="" width="200">
+
                 <img src="{{ asset('img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
+
                 <div class="portfolio-info">
                     <a href="SmartSoc">
                         <h4>Smart Society</h4>

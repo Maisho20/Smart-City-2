@@ -51,10 +51,10 @@
 
     <section id="portfolio" class="portfolio mt-0 pt-0">
 
-        <div class="container">
+        <div class="container-sm">
 
             <header class="section-header animate__animated animate__fadeInDown">
-                <p>Smart City</p>
+                <p>Smart City Kabupaten Malang</p>
             </header>
 
             @yield('content')

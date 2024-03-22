@@ -49,17 +49,12 @@
 
 <body>
 
-    <section id="portfolio" class="portfolio mt-0 pt-0">
+    @yield('header')
 
-        <div class="container-sm">
+    @yield('about')
 
-            <header class="section-header animate__animated animate__fadeInDown">
-                <p>Smart City Kabupaten Malang</p>
-            </header>
+    @yield('content')
 
-            @yield('content')
-        </div>
-    </section>
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
@@ -72,6 +67,9 @@
     <script src="{{ asset('vendor/purecounter/purecounter.js') }}"></script>
     <script src="{{ asset('vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
     <script src="{{ asset('vendor/glightbox/js/glightbox.min.js') }}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{{ asset('js/main.js') }}"></script>
 </body>
 
 </html>

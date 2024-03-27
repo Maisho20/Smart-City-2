@@ -13,8 +13,8 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-                    <li><a class="nav-link scrollto" href="#features">Tujuan Program</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Kendala V/S Penyelesaian</a></li>
+                    <li><a class="nav-link scrollto" href="#features">Berita</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Dokumen</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -110,7 +110,7 @@
             <div class="container">
                 <div class="row g-4 align-items-end mb-4">
                     <div class="col-lg-6 animate__animated animate__fadeInDown">
-                        <img class="img-fluid rounded" src="{{ asset('img/aboutus.jpg') }}"
+                        <img class="img-fluid rounded" src="{{ asset('img/florawisata.jpg') }}"
                             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     </div>
 
@@ -118,9 +118,12 @@
                         <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Tentang kami</p>
                         <h1 class="display-5 mb-4">Smart City Kabupaten Malang</h1>
                         <p class="mb-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ipsa id, numquam at, hic aut,
-                            voluptatibus vel sapiente incidunt cupiditate amet dolorem ab eum asperiores dicta mollitia
-                            error nisi consequatur!
+                            Saat ini, Smart City (Kota Cerdas) sedang dikembangkan di beberapa daerah di Indonesia. Termasuk
+                            Kabupaten Malang, Jawa Timur. Salah satu tujuannya dikembangkan sistem ini adalah untuk
+                            mempermudah masyarakat khususnya yang bertempat tinggal di sekitar Kabupaten Malang. 
+                            Dengan adanya pengembangan Smart City, masyarakat diberikan fasilitas dengan memperhatikan
+                            kebutuhan setiap harinya. Dengan demikian, masyarakat Kabupaten Malang lebih mudah mendapatkan
+                            informasi seputar berita lokal. 
                         </p>
                         <div class="border rounded p-4">
                             <nav>
@@ -147,21 +150,19 @@
                                 <div class="tab-pane fade show active" id="nav-story" role="tabpanel"
                                     aria-labelledby="nav-story-tab">
                                     <p>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ut molestiae fugit
-                                        quae accusamus laborum quisquam commodi, repellendus ea corporis modi vel quo nemo
-                                        perspiciatis voluptas fuga suscipit sed cumque.
+                                        Salah satu dari ciri khas Kabupaten Malang yaitu florawisata Santerra de Laponte yang menjadi
+                                        brandingnya. Adapun pembahasan tentang Smart Branding dengan memberikan rekomendasi seputar
+                                        wisata di Kabupaten Malang.
                                     </p>
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates
-                                        doloremque. Quisquam, voluptates doloremque.
+                                        Dengan menguatkan Smart Branding, Kabupaten Malang dinilai telah mampu mengembangkan wisata 
+                                        untuk warga lokal ataupun luar dari Kabupaten Malang. Menciptakan tempat wisata yang menarik dan 
+                                        harga yang terjangkau.
                                     </p>
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates
-                                        doloremque. Quisquam, voluptates doloremque.
-                                    </p>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates
-                                        doloremque. Quisquam, voluptates doloremque.
+                                        Namun, bukan Santerra de Laponte saja yang dikembangkan. Jika menelaah dari Smart Branding
+                                        akan lebih banyak lagi rekomendasi yang diberikan oleh pengelola wisata di Kabupaten Malang untuk warga lokal
+                                        dan turis yang sedang ataupun ingin berlibur di Kabupaten Malang.
                                     </p>
                                 </div>
                             </div>

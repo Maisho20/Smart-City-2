@@ -14,7 +14,7 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
                     <li><a class="nav-link scrollto" href="#features">Berita</a></li>
-                    <li><a class="nav-link scrollto" href="#services">Dokumen</a></li>
+                    <li><a class="nav-link scrollto" href="{{ route('dokumen') }}">Dokumen</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -26,85 +26,6 @@
 @endsection
 
 @section('about')
-    {{-- <section id="about" class="hero d-flex align-items-center">
-        <div id="hero" class="container">
-            <div class="row">
-                <div class="col-lg-6 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up">MATIC</h1>
-                    <h3 data-aos="fade-up" data-aos-delay="400">Malang Kabupaten Tourism Intelligence Center</h3>
-                    <p style="font-size: 20px!important; text-indent: 45px!important;" data-aos="fade-up"
-                        data-aos-delay="600">
-                        <b>MATIC,</b> Platform Big Data & Smart Tourism yang berisikan Data Pelaku Industri Pariwisata
-                        dan Ekonomi Kreatif, Data Event & Program Kegiatan, Showcase Produk dan Statistik Data Ekonomi
-                        Kreatif dan Pariwisata di Kabupaten Malang. <br>
-                        Platform ini juga akan menjadi media promosi destinasi wisata, desa wisata, hospitality dan
-                        pelaku kreatif yang ada di Malang untuk menjual dan memberikan informasi promo, campaign atau
-                        informasi lainnya.
-                    </p>
-                </div>
-                <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="{{ asset('img/Smart/Brand/Brand1.png') }}" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-    </section> --}}
-
-    {{-- <section>
-        <div class="container pt-5">
-            <div class="row pt-5 animate__animated animate__fadeInDown">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <img class="img-fluid rounded" src="{{ asset('img/Smart/Brand/Brand2.png') }}"
-                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                </div>
-                <div class="col-md-5">
-                    <p style="text-indent: 45px!important; padding-top: 5rem">
-                        <b>Smart Branding</b> merupakan upaya untuk membangun citra dan identitas Kabupaten Malang
-                        sebagai destinasi wisata yang unggul dan berdaya saing. Smart Branding ini diharapkan dapat
-                        memberikan dampak positif bagi peningkatan kunjungan wisatawan, peningkatan perekonomian masyarakat
-                        dan peningkatan kualitas hidup masyarakat Kabupaten Malang.
-                    </p>
-                </div>
-                <div class="col-md-1"></div>
-            </div>
-
-            <div class="row pt-5 animate__animated animate__fadeInDown">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <p style="text-indent: 45px!important; padding-top: 5rem">
-                        <b>Smart Branding</b> ini diharapkan dapat memberikan dampak positif bagi peningkatan kunjungan
-                        wisatawan, peningkatan perekonomian masyarakat dan peningkatan kualitas hidup masyarakat
-                        Kabupaten
-                        Malang.
-                    </p>
-                </div>
-                <div class="col-md-5">
-                    <img class="img-fluid rounded" src="{{ asset('img/Smart/Brand/Brand3.png') }}"
-                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                </div>
-                <div class="col-md-1"></div>
-            </div>
-
-            <div class="row pt-5" data-aos="fade-up" data-aos-delay="200">
-                <div class="col-md-1"></div>
-                <div class="col-md-5">
-                    <img class="img-fluid rounded" src="{{ asset('img/Smart/Brand/Brand4.png') }}"
-                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                </div>
-                <div class="col-md-5">
-                    <p style="text-indent: 45px!important; padding-top: 5rem">
-                        <b>Smart Branding</b> ini diharapkan dapat memberikan dampak positif bagi peningkatan kunjungan
-                        wisatawan, peningkatan perekonomian masyarakat dan peningkatan kualitas hidup masyarakat
-                        Kabupaten
-                        Malang.
-                    </p>
-                </div>
-                <div class="col-md-1"></div>
-            </div>
-        </div>
-        </div>
-    </section> --}}
-
     <section class="pt-5">
         <div class="container-xxl py-5 pt-5" id="about">
             <div class="container">
@@ -120,10 +41,10 @@
                         <p class="mb-4">
                             Saat ini, Smart City (Kota Cerdas) sedang dikembangkan di beberapa daerah di Indonesia. Termasuk
                             Kabupaten Malang, Jawa Timur. Salah satu tujuannya dikembangkan sistem ini adalah untuk
-                            mempermudah masyarakat khususnya yang bertempat tinggal di sekitar Kabupaten Malang. 
+                            mempermudah masyarakat khususnya yang bertempat tinggal di sekitar Kabupaten Malang.
                             Dengan adanya pengembangan Smart City, masyarakat diberikan fasilitas dengan memperhatikan
                             kebutuhan setiap harinya. Dengan demikian, masyarakat Kabupaten Malang lebih mudah mendapatkan
-                            informasi seputar berita lokal. 
+                            informasi seputar berita lokal.
                         </p>
                         <div class="border rounded p-4">
                             <nav>
@@ -150,18 +71,24 @@
                                 <div class="tab-pane fade show active" id="nav-story" role="tabpanel"
                                     aria-labelledby="nav-story-tab">
                                     <p>
-                                        Salah satu dari ciri khas Kabupaten Malang yaitu florawisata Santerra de Laponte yang menjadi
-                                        brandingnya. Adapun pembahasan tentang Smart Branding dengan memberikan rekomendasi seputar
+                                        Salah satu dari ciri khas Kabupaten Malang yaitu florawisata Santerra de Laponte
+                                        yang menjadi
+                                        brandingnya. Adapun pembahasan tentang Smart Branding dengan memberikan rekomendasi
+                                        seputar
                                         wisata di Kabupaten Malang.
                                     </p>
                                     <p>
-                                        Dengan menguatkan Smart Branding, Kabupaten Malang dinilai telah mampu mengembangkan wisata 
-                                        untuk warga lokal ataupun luar dari Kabupaten Malang. Menciptakan tempat wisata yang menarik dan 
+                                        Dengan menguatkan Smart Branding, Kabupaten Malang dinilai telah mampu mengembangkan
+                                        wisata
+                                        untuk warga lokal ataupun luar dari Kabupaten Malang. Menciptakan tempat wisata yang
+                                        menarik dan
                                         harga yang terjangkau.
                                     </p>
                                     <p>
-                                        Namun, bukan Santerra de Laponte saja yang dikembangkan. Jika menelaah dari Smart Branding
-                                        akan lebih banyak lagi rekomendasi yang diberikan oleh pengelola wisata di Kabupaten Malang untuk warga lokal
+                                        Namun, bukan Santerra de Laponte saja yang dikembangkan. Jika menelaah dari Smart
+                                        Branding
+                                        akan lebih banyak lagi rekomendasi yang diberikan oleh pengelola wisata di Kabupaten
+                                        Malang untuk warga lokal
                                         dan turis yang sedang ataupun ingin berlibur di Kabupaten Malang.
                                     </p>
                                 </div>

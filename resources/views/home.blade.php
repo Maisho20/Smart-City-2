@@ -204,8 +204,8 @@
                             <p>
                                 <b>Wisata Edukasi & Edu Sampah Cipta Kerja</b>
                                 <br>
-                                Wadah untuk memberikan edukasi seputar operasi pengelolaan TPA sampah dan
-                                Pengendalian dan pemanfaatan Gas Methane di TPA.
+                                Penerapan proyek untuk mengelola energi, pengurangan limbah, pengawasan kualitas udara,
+                                dan pengembangan kota cerdas.
                             </p>
                         </div>
                     </div>
@@ -231,8 +231,7 @@
                             <p>
                                 <b>DESAKU TUNTAS</b>
                                 <br>
-                                Desaku Tuntas adalah aplikasi yang memudahkan masyarakat dalam mengakses informasi dan
-                                pelayanan pemerintah desa.
+                                Konsep pemerintahan berbasis Teknologi yang membahas suatu tata kelola serta pelayanan.
                             </p>
                         </div>
                     </div>
@@ -258,9 +257,8 @@
                             <p>
                                 <b>MATIC</b>
                                 <br>
-                                MATIC adalah sebuah apilkasi promosi destinasi wisata, pelayanan dan
-                                pelaku industri wisata yang mampu memberikan informasi, campaign atau
-                                informasi lainnya
+                                Menampilkan identitas kota dengan mengoptimalkan pemasaran melalui teknologi
+                                untuk lingkup regional dan global. 
                             </p>
                         </div>
                     </div>
@@ -286,9 +284,8 @@
                             <p>
                                 <b>E-AGRIPROP</b>
                                 <br>
-                                E-Agriprop adalah aplikasi yang memudahkan petani dalam mengakses informasi dan
-                                pelayanan
-                                pertanian.
+                                Perekonomian berdasarkan inovasi teknologi berkonsep sumber daya, daya saing, 
+                                pembayaran dan infrastruktur informasi teknologi.
                             </p>
                         </div>
                     </div>
@@ -314,8 +311,8 @@
                             <p>
                                 <b>SMART health</b>
                                 <br>
-                                SMART health adalah aplikasi pelayanan pada bidang
-                                kesehatan yang promotif, preventif dan kegawat daruratan.
+                                Mewujudkan tempat tinggal yang nyaman, layak dan efisien dengan mengkolaborasikan
+                                penggunaan teknologi dan akses fasilitas yang memadai.
                             </p>
                         </div>
                     </div>
@@ -341,8 +338,8 @@
                             <p>
                                 <b>CONTRA WAR</b>
                                 <br>
-                                Sebuah aplikasi untuk memberikan pelayanan kontrasepsi yang tepat
-                                untuk penundaan ataupun pencegahan kehamilan pada pasangan usia subur
+                                Pemanfaatan penggunaan teknologi untuk menghubungkan masyarakat dengan fokus 
+                                ekonomi, kesejahteraan dan efektivitas institusi.
                             </p>
                         </div>
                     </div>

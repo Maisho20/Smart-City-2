@@ -63,6 +63,7 @@ section {
 }
 
 .section-header p {
+  font-family: 'Rozha One';
   margin: 10px 0 0 0;
   padding: 0;
   font-size: 38px;
@@ -186,9 +187,9 @@ section {
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
-.header .logo {
-  /* line-height: 0; */
-}
+/* .header .logo {
+  line-height: 0;
+} */
 
 .header .logo img {
   max-height: 40px;
@@ -771,12 +772,6 @@ section {
   color: #012970;
 }
 
-.features .feature-icons .content .icon-box h4 i {
-    font-size: 20px;
-    font-weight: 700;
-    margin: 0 0 5px 0;
-    color: #012970;
-  }
 
 .features .feature-icons .content .icon-box i {
   font-size: 44px;
@@ -2295,13 +2290,13 @@ section {
   background: #5969f3;
 }
 
-.footer .footer-top {
-  /* background: white url(../img/footer-bg.png) no-repeat right top; */
-  /* background-size: contain; */
-  /* border-top: 1px solid #e1ecff; */
-  /* border-bottom: 1px solid #e1ecff; */
-  /* padding: 60px 0 30px 0; */
-}
+/* .footer .footer-top {
+  background: white url(../img/footer-bg.png) no-repeat right top;
+  background-size: contain;
+  border-top: 1px solid #e1ecff;
+  border-bottom: 1px solid #e1ecff;
+  padding: 60px 0 30px 0;
+} */
 
 @media (max-width: 992px) {
   .footer .footer-top {
@@ -2415,3 +2410,21 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+/* ------- */
+/* dokumen */
+/* ------- */
+/* .event-section .event-section-inner{
+	background-color: var(--thm-primary-light);
+	padding: 120px 80px 110px;
+}
+@media (max-width: 1399px) {
+	.event-section .event-section-inner {
+		padding: 80px 80px 60px;
+	}
+}
+@media (max-width: 767px) {
+	.event-section .event-section-inner {
+		padding: 80px 40px 60px;
+	}
+} */

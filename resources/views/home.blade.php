@@ -13,7 +13,8 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-                    <li><a class="nav-link scrollto" href="#features">Berita</a></li>
+                    <li><a class="nav-link scrollto" href="#smart">Smart City</a></li>
+                    <li><a class="nav-link scrollto" href="#berita">Berita</a></li>
                     <li><a class="nav-link scrollto" href="{{ route('dokumen') }}">Dokumen</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -30,12 +31,12 @@
         <div class="container-xxl py-5 pt-5" id="about">
             <div class="container">
                 <div class="row g-4 align-items-end mb-4">
-                    <div class="col-lg-6 animate__animated animate__fadeInDown">
+                    <div class="col-lg-6" data-aos="fade-right">
                         <img class="img-fluid rounded" src="{{ asset('img/florawisata.jpg') }}"
                             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     </div>
 
-                    <div class="col-lg-6 animate__animated animate__fadeInUp">
+                    <div class="col-lg-6" data-aos="fade-left">
                         <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Tentang kami</p>
                         <h1 class="display-5 mb-4">Smart City Kabupaten Malang</h1>
                         <p class="mb-4">
@@ -46,19 +47,22 @@
                             kebutuhan setiap harinya. Dengan demikian, masyarakat Kabupaten Malang lebih mudah mendapatkan
                             informasi seputar berita lokal.
                         </p>
-                        <div class="border rounded p-4">
+
+                        <div class="border rounded p-4" data-aos="fade-up">
                             <nav>
                                 <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
                                     <button class="nav-link fw-semi-bold active" id="nav-story-tab" data-bs-toggle="tab"
                                         data-bs-target="#nav-story" type="button" role="tab" aria-controls="nav-story"
-                                        aria-selected="true">Deskripsi</button>
-                                    <button class="nav-link fw-semi-bold" id="nav-mission-tab" data-bs-toggle="tab"
+                                        aria-selected="true">Deskripsi
+                                    </button>
+                                    {{-- <button class="nav-link fw-semi-bold" id="nav-mission-tab" data-bs-toggle="tab"
                                         data-bs-target="#nav-mission" type="button" role="tab"
-                                        aria-controls="nav-mission" aria-selected="false">Lokasi</button>
+                                        aria-controls="nav-mission" aria-selected="false">Lokasi
+                                    </button> --}}
                                 </div>
                             </nav>
                             <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade" id="nav-mission" role="tabpanel"
+                                {{-- <div class="tab-pane fade" id="nav-mission" role="tabpanel"
                                     aria-labelledby="nav-mission-tab">
                                     <p class="mb-0">
                                         <iframe
@@ -67,7 +71,7 @@
                                             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                                         </iframe>
                                     </p>
-                                </div>
+                                </div> --}}
                                 <div class="tab-pane fade show active" id="nav-story" role="tabpanel"
                                     aria-labelledby="nav-story-tab">
                                     <p>
@@ -102,7 +106,7 @@
 @endsection
 
 @section('content')
-    <section id="portfolio" class="portfolio">
+    <section id="smart" class="portfolio">
 
         <div class="container">
 
@@ -185,7 +189,7 @@
                                 <b>MATIC</b>
                                 <br>
                                 Menampilkan identitas kota dengan mengoptimalkan pemasaran melalui teknologi
-                                untuk lingkup regional dan global. 
+                                untuk lingkup regional dan global.
                             </p>
                         </div>
                     </div>
@@ -211,7 +215,7 @@
                             <p>
                                 <b>E-AGRIPROP</b>
                                 <br>
-                                Perekonomian berdasarkan inovasi teknologi berkonsep sumber daya, daya saing, 
+                                Perekonomian berdasarkan inovasi teknologi berkonsep sumber daya, daya saing,
                                 pembayaran dan infrastruktur informasi teknologi.
                             </p>
                         </div>
@@ -265,7 +269,7 @@
                             <p>
                                 <b>CONTRA WAR</b>
                                 <br>
-                                Pemanfaatan penggunaan teknologi untuk menghubungkan masyarakat dengan fokus 
+                                Pemanfaatan penggunaan teknologi untuk menghubungkan masyarakat dengan fokus
                                 ekonomi, kesejahteraan dan efektivitas institusi.
                             </p>
                         </div>
@@ -276,5 +280,114 @@
 
         </div>
 
+    </section>
+@endsection
+
+@section('berita')
+    <section id="berita">
+        <div class="container">
+            <header class="section-header pb-4" data-aos="fade-down">
+                <p>Berita Smart City Kabupaten Malang</p>
+            </header>
+
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="col-lg-3 col-md-5">
+                    <div class="card rounded-5">
+                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
+                            class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-5">
+                    <div class="card rounded-5">
+                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
+                            class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-5">
+                    <div class="card rounded-5">
+                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
+                            class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-5">
+                    <div class="card rounded-5">
+                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
+                            class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-5">
+                    <div class="card rounded-5">
+                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
+                            class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-5">
+                    <div class="card rounded-5">
+                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
+                            class="card-img-top">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                                the card's content.
+                            </p>
+                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+@endsection
+
+@section('dokumen')
+    <section>
+        {{-- <div class="container">
+            <div class="event-section-inner">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-title-box">
+                            <h2 class="section-title">DOKUMEN SMART CITY</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> --}}
     </section>
 @endsection

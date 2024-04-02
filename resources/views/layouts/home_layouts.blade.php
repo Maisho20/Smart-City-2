@@ -57,6 +57,10 @@
 
     @yield('content')
 
+    @yield('berita')
+
+    @yield('dokumen')
+
     @include('footer')
 
 

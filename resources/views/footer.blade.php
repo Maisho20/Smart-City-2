@@ -4,7 +4,8 @@
             &copy;
             <script>
                 document.write(new Date().getFullYear())
-            </script> Copyright <strong><span>All Rights Reserved</span></strong>.
+            </script>
+            Copyright Diskominfo Kota Malang, <br> <strong><span>All Rights Reserved</span></strong>.
         </div>
     </div>
 

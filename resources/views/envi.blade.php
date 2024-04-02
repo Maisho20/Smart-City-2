@@ -46,10 +46,10 @@
                             <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                                 <i class="ri-door-open-line"></i>
                                 <div>
-                                    <h4>Pelayanan pengambilan sampah <i>door to door</i></h4>
+                                    <h4>Pelayanan pengambilan sampah door to door</h4>
                                     <p>
-                                        Pelayanan pengambilan sampah <i>door to door</i> yang dilakukan oleh petugas
-                                        kebersihan yang dilengkapi dengan aplikasi <i>tracking</i> yang memudahkan dalam
+                                        Pelayanan pengambilan sampah door to door yang dilakukan oleh petugas
+                                        kebersihan yang dilengkapi dengan aplikasi tracking yang memudahkan dalam
                                         proses pengambilan sampah.
                                     </p>
                                 </div>

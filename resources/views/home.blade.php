@@ -5,7 +5,7 @@
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <a href="{{ route('home') }}" class="logo d-flex align-items-center">
+            <a href="#" class="logo d-flex align-items-center">
                 <img src="{{ asset('img/Smart/Logo_Kabupaten_Malang_-_Seal_of_Malang_Regency.svg.png') }}" alt="">
                 <span>Smart City Kabupaten Malang</span>
             </a>
@@ -15,7 +15,7 @@
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
                     <li><a class="nav-link scrollto" href="#smart">Smart City</a></li>
                     <li><a class="nav-link scrollto" href="#berita">Berita</a></li>
-                    <li><a class="nav-link scrollto" href="{{ route('dokumen') }}">Dokumen</a></li>
+                    <li><a class="nav-link scrollto" href="#dokumen">Dokumen</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -114,9 +114,36 @@
                 <p>Smart City Kabupaten Malang</p>
             </header>
 
-            <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="100" id="portofolio-container">
 
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                @foreach ($data as $item)
+                    <div class="col-lg-4 col-md-6 portfolio-item">
+                        <div class="portfolio-wrap">
+                            <img src="{{ asset($item['smartIco']) }}"
+                                class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt=""
+                                width="80">
+                            <img src="{{ asset($item['smartIco']) }}"
+                                class="col-lg-3 position-absolute pt-3 ps-3 d-none d-md-block img-fluid" alt=""
+                                width="200">
+
+                            <img src="{{ asset($item['smartImg']) }}" class="img-fluid" alt="">
+
+                            <div class="portfolio-info">
+                                <a href="{{ $item['routes'] }}">
+                                    <h4>{{ $item['judulSmart'] }}</h4>
+                                </a>
+                                <p>
+                                    <b>{{ $item['subJudulSmart'] }}</b>
+                                    <br>
+                                    {{ $item['smartDesc'] }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+
+
+                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
                     <div class="portfolio-wrap">
 
                         <img src="{{ asset('img/portfolio/envIcn.png') }}"
@@ -129,7 +156,7 @@
                         <img src="{{ asset('img/portfolio/environment.jpg') }}" class="img-fluid" alt="">
 
                         <div class="portfolio-info">
-                            <a href="{{ route('SmartEnv') }}">
+                            <a href="SmartEnv">
                                 <h4>Smart Environment</h4>
                             </a>
                             <p>
@@ -140,10 +167,10 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- konten 2 --}}
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
                     <div class="portfolio-wrap">
 
                         <img src="{{ asset('img/portfolio/govIcn.png') }}"
@@ -156,7 +183,7 @@
                         <img src="{{ asset('img\portfolio\gov.jpg') }}" class="img-fluid" alt="">
 
                         <div class="portfolio-info">
-                            <a href="{{ route('SmartGov') }}">
+                            <a href="SmartGov">
                                 <h4>Smart Governance</h4>
                             </a>
                             <p>
@@ -166,10 +193,10 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- konten 3 --}}
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
                     <div class="portfolio-wrap">
 
                         <img src="{{ asset('img/portfolio/brndIcn.png') }}"
@@ -182,7 +209,7 @@
                         <img src="{{ asset('img/portfolio/bran.jpg') }}" class="img-fluid" alt="">
 
                         <div class="portfolio-info">
-                            <a href="{{ route('SmartBrand') }}">
+                            <a href="SmartBrand">
                                 <h4>Smart Branding</h4>
                             </a>
                             <p>
@@ -193,10 +220,10 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- konten 4 --}}
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
                     <div class="portfolio-wrap">
 
                         <img src="{{ asset('img/portfolio/ecoIcn.png') }}"
@@ -220,10 +247,10 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- konten 5 --}}
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
                     <div class="portfolio-wrap">
 
                         <img src="{{ asset('img/portfolio/livIcn.png') }}"
@@ -247,10 +274,10 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
                 {{-- konten 6 --}}
-                <div class="col-lg-4 col-md-6 portfolio-item">
+                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
                     <div class="portfolio-wrap">
 
                         <img src="{{ asset('img/portfolio/socIcn.png') }}"
@@ -274,7 +301,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
 
@@ -377,8 +404,17 @@
 @endsection
 
 @section('dokumen')
-    <section>
-        {{-- <div class="container">
+    <section id="dokumen">
+        <div class="container">
+            <header class="section-header pb-4" data-aos="fade-down">
+                <p>Dokumen Smart City Kabupaten Malang</p>
+            </header>
+
+
+        </div>
+    </section>
+    {{-- <section>
+        <div class="container">
             <div class="event-section-inner">
                 <div class="row">
                     <div class="col-lg-6">
@@ -388,6 +424,6 @@
                     </div>
                 </div>
             </div>
-        </div> --}}
-    </section>
+        </div>
+    </section> --}}
 @endsection

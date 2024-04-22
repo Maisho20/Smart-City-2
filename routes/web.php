@@ -33,3 +33,4 @@ Route::get('/SmartLiv', [SmartLivController::class, 'index'])->name('SmartLiv');
 Route::get('/SmartSoc', [SmartSocController::class, 'index'])->name('SmartSoc');
 Route::get('/SmartEco', [SmartEcoController::class, 'index'])->name('SmartEco');
 Route::get('/Dokumen', [DokumenConroller::class, 'index'])->name('dokumen');
+Route::get('/getData', [homeController::class, 'getData'])->name('getData');

@@ -409,9 +409,23 @@
             <header class="section-header pb-4" data-aos="fade-down">
                 <p>Dokumen Smart City Kabupaten Malang</p>
             </header>
-
-
-        </div>
+            <div class="row row-cols-2">
+                    <div class="card rounded-5">
+                        <div class="ri-file-text-line">
+                            <h4>
+                                <a href="https://www.kompas.com/tag/malang" target="blank">
+                                    hai
+                                </a>    
+                            </h4>
+                            <p> hai </p> 
+                        </div>
+                    </div>
+                    <div class="card rounded-5">
+                        <div class="ri-file-text-line">
+                            <a href="img\Dokumen berisikan tentang informasi Smart City.docx" target="blank"> hi </a>
+                        </div>
+                    </div>
+                </div>
     </section>
     {{-- <section>
         <div class="container">

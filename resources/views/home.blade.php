@@ -409,7 +409,9 @@
             <header class="section-header pb-4" data-aos="fade-down">
                 <p>Dokumen Smart City Kabupaten Malang</p>
             </header>
-            <div class="row row-cols-2">
+
+            {{-- @foreach($pdf as $dokumen)
+                <div class="row row-cols-2">
                     <div class="card rounded-5">
                         <div class="ri-file-text-line">
                             <h4>
@@ -422,10 +424,37 @@
                     </div>
                     <div class="card rounded-5">
                         <div class="ri-file-text-line">
-                            <a href="img\Dokumen berisikan tentang informasi Smart City.docx" target="blank"> hi </a>
+                            <a href="img\Dokumen berisikan tentang informasi Smart City.pdf" target="_blank"> hi </a>
                         </div>
                     </div>
                 </div>
+            @endforeach --}}
+
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                <div class="col">
+                    <div class="p-3 border" style="background-image: linear-gradient(to bottom right, rgb(97, 124, 245), rgb(140, 228, 243))">
+                        <i class="ri-file-text-line" style="font-size: 3.5rem;">
+                            <h4>
+                                <a href="https://www.kompas.com/tag/malang" target="blank" style="color: black">
+                                    hai
+                                </a>    
+                            </h4>
+                        </i>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="p-3 border" style="background-color: rgba(136, 235, 238, 0.74)">
+                        <i class="ri-file-text-line" style="font-size: 3.5rem">
+                            <h4>
+                                <a href="img/Dokumen berisikan tentang informasi Smart City.pdf" target="_blank">
+                                    hai
+                                </a>    
+                            </h4> 
+                        </i>
+                    </div>
+                </div> 
+            </div>
     </section>
     {{-- <section>
         <div class="container">

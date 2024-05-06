@@ -118,7 +118,7 @@
 
                 @foreach ($data as $item)
                     <div class="col-lg-4 col-md-6 portfolio-item">
-                        <div class="portfolio-wrap">
+                        <div class="portfolio-wrap" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                             <img src="{{ asset($item['smartIco']) }}"
                                 class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt=""
                                 width="80">
@@ -319,7 +319,23 @@
 
             <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
 
-                <div class="col-lg-3 col-md-5">
+                @for ($i = 0; $i < 6; $i++)
+                    <div class="col-lg-3 col-md-5">
+                        <div class="card rounded-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                            <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
+                                class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                    of
+                                    the card's content.
+                                </p>
+                                <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
+                            </div>
+                        </div>
+                    </div>
+                @endfor
+
+                {{-- <div class="col-lg-3 col-md-5">
                     <div class="card rounded-5">
                         <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
                             class="card-img-top">
@@ -382,20 +398,7 @@
                             <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-lg-3 col-md-5">
-                    <div class="card rounded-5">
-                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
-                            class="card-img-top">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </p>
-                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
-                        </div>
-                    </div>
-                </div>
+                </div> --}}
 
             </div>
         </div>
@@ -410,16 +413,16 @@
                 <p>Dokumen Smart City Kabupaten Malang</p>
             </header>
 
-            {{-- @foreach($pdf as $dokumen)
+            {{-- @foreach ($pdf as $dokumen)
                 <div class="row row-cols-2">
                     <div class="card rounded-5">
                         <div class="ri-file-text-line">
                             <h4>
                                 <a href="https://www.kompas.com/tag/malang" target="blank">
                                     hai
-                                </a>    
+                                </a>
                             </h4>
-                            <p> hai </p> 
+                            <p> hai </p>
                         </div>
                     </div>
                     <div class="card rounded-5">
@@ -430,30 +433,49 @@
                 </div>
             @endforeach --}}
 
-            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-                <div class="col">
-                    <div class="p-3 border" style="background-image: linear-gradient(to bottom right, rgb(97, 124, 245), rgb(140, 228, 243))">
-                        <i class="ri-file-text-line" style="font-size: 3.5rem;">
-                            <h4>
-                                <a href="https://www.kompas.com/tag/malang" target="blank" style="color: black">
-                                    hai
-                                </a>    
-                            </h4>
-                        </i>
+            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3" data-aos="fade-up">
+
+                @for ($i = 0; $i < 4; $i++)
+                    <div class="col-lg-3 col-md-3">
+                        <div class="card p-3 border-4"
+                            style="border-image: linear-gradient(45deg, rgb(97, 124, 245), rgb(140, 228, 243))1;
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                            {{-- linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1 --}}
+                            <div>
+                                <i class="ri-file-text-line" style="font-size: 3.5rem;"></i>
+                                <h4>
+                                    Dokumen berisikan tentang informasi Smart City
+                                </h4>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Dokumen berisikan tentang informasi Smart City Kabupaten Malang yang dapat diakses oleh
+                                    masyarakat Kabupaten Malang.
+                                </p>
+                                {{-- <a href="https://www.kompas.com/tag/malang" target="blank" class="btn btn-primary float-end"> --}}
+                                <a href="{{ asset('img/Dokumen berisikan tentang informasi Smart City.pdf') }}"
+                                    target="blank" class="btn btn-primary float-end">
+                                    Lihat dokumen
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                @endfor
 
                 <div class="col">
                     <div class="p-3 border" style="background-color: rgba(136, 235, 238, 0.74)">
-                        <i class="ri-file-text-line" style="font-size: 3.5rem">
-                            <h4>
-                                <a href="img/Dokumen berisikan tentang informasi Smart City.pdf" target="_blank">
-                                    hai
-                                </a>    
-                            </h4> 
-                        </i>
+                        <i class="ri-file-text-line" style="font-size: 3.5rem"></i>
+                        <h4>
+                            {{-- <a href="img/Dokumen berisikan tentang informasi Smart City.pdf" target="_blank"> --}}
+                            <a href="{{ asset('img/Dokumen berisikan tentang informasi Smart City.pdf') }}"
+                                target="_blank">
+                                hai
+                            </a>
+                        </h4>
+
                     </div>
-                </div> 
+                </div>
+
             </div>
     </section>
     {{-- <section>

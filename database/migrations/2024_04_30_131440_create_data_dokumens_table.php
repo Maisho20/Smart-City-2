@@ -14,11 +14,8 @@ return new class extends Migration
         Schema::create('data_dokumens', function (Blueprint $table) {
             $table->id()->autoIncrement()->unique();
             $table->string('judul');
+            $table->string('deskripsi');
             $table->string('file');
-            $table->string('rute');
-            $table->string('kategori');
-            $table->string('tahun');
-            $table->string('upload_at')->timestamps();
         });
     }
 

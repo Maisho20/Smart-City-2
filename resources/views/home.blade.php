@@ -1,7 +1,6 @@
 @extends('layouts.home_layouts')
 
 @section('header')
-    <!-- ======= Header ======= -->
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
@@ -19,11 +18,9 @@
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
-            <!-- .navbar -->
 
         </div>
     </header>
-    <!-- End Header -->
 @endsection
 
 @section('about')
@@ -55,23 +52,9 @@
                                         data-bs-target="#nav-story" type="button" role="tab" aria-controls="nav-story"
                                         aria-selected="true">Deskripsi
                                     </button>
-                                    {{-- <button class="nav-link fw-semi-bold" id="nav-mission-tab" data-bs-toggle="tab"
-                                        data-bs-target="#nav-mission" type="button" role="tab"
-                                        aria-controls="nav-mission" aria-selected="false">Lokasi
-                                    </button> --}}
                                 </div>
                             </nav>
                             <div class="tab-content" id="nav-tabContent">
-                                {{-- <div class="tab-pane fade" id="nav-mission" role="tabpanel"
-                                    aria-labelledby="nav-mission-tab">
-                                    <p class="mb-0">
-                                        <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5744.901536727792!2d112.67663673296389!3d-8.439488875114831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd601147042ed43%3A0x3d8b26de55357956!2sPantai%20Tiga%20Warna!5e0!3m2!1sid!2sid!4v1683266958659!5m2!1sid!2sid"
-                                            width="574.4" height="264" style="border:0; position:center;"
-                                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                                        </iframe>
-                                    </p>
-                                </div> --}}
                                 <div class="tab-pane fade show active" id="nav-story" role="tabpanel"
                                     aria-labelledby="nav-story-tab">
                                     <p>
@@ -141,167 +124,6 @@
                         </div>
                     </div>
                 @endforeach
-
-
-                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
-                    <div class="portfolio-wrap">
-
-                        <img src="{{ asset('img/portfolio/envIcn.png') }}"
-                            class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt=""
-                            width="80">
-                        <img src="{{ asset('img/portfolio/envIcn.png') }}"
-                            class="col-lg-3 position-absolute pt-3 ps-3 d-none d-md-block img-fluid" alt=""
-                            width="200">
-
-                        <img src="{{ asset('img/portfolio/environment.jpg') }}" class="img-fluid" alt="">
-
-                        <div class="portfolio-info">
-                            <a href="SmartEnv">
-                                <h4>Smart Environment</h4>
-                            </a>
-                            <p>
-                                <b>Wisata Edukasi & Edu Sampah Cipta Kerja</b>
-                                <br>
-                                Penerapan proyek untuk mengelola energi, pengurangan limbah, pengawasan kualitas udara,
-                                dan pengembangan kota cerdas.
-                            </p>
-                        </div>
-                    </div>
-                </div> --}}
-
-                {{-- konten 2 --}}
-                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
-                    <div class="portfolio-wrap">
-
-                        <img src="{{ asset('img/portfolio/govIcn.png') }}"
-                            class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt=""
-                            width="80">
-                        <img src="{{ asset('img/portfolio/govIcn.png') }}"
-                            class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt=""
-                            width="200">
-
-                        <img src="{{ asset('img\portfolio\gov.jpg') }}" class="img-fluid" alt="">
-
-                        <div class="portfolio-info">
-                            <a href="SmartGov">
-                                <h4>Smart Governance</h4>
-                            </a>
-                            <p>
-                                <b>DESAKU TUNTAS</b>
-                                <br>
-                                Konsep pemerintahan berbasis Teknologi yang membahas suatu tata kelola serta pelayanan.
-                            </p>
-                        </div>
-                    </div>
-                </div> --}}
-
-                {{-- konten 3 --}}
-                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
-                    <div class="portfolio-wrap">
-
-                        <img src="{{ asset('img/portfolio/brndIcn.png') }}"
-                            class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt=""
-                            width="80">
-                        <img src="{{ asset('img/portfolio/brndIcn.png') }}"
-                            class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt=""
-                            width="200">
-
-                        <img src="{{ asset('img/portfolio/bran.jpg') }}" class="img-fluid" alt="">
-
-                        <div class="portfolio-info">
-                            <a href="SmartBrand">
-                                <h4>Smart Branding</h4>
-                            </a>
-                            <p>
-                                <b>MATIC</b>
-                                <br>
-                                Menampilkan identitas kota dengan mengoptimalkan pemasaran melalui teknologi
-                                untuk lingkup regional dan global.
-                            </p>
-                        </div>
-                    </div>
-                </div> --}}
-
-                {{-- konten 4 --}}
-                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
-                    <div class="portfolio-wrap">
-
-                        <img src="{{ asset('img/portfolio/ecoIcn.png') }}"
-                            class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt=""
-                            width="80">
-                        <img src="{{ asset('img/portfolio/ecoIcn.png') }}"
-                            class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt=""
-                            width="200">
-
-                        <img src="{{ asset('img/portfolio/eco.jpg') }}" class="img-fluid" alt="">
-
-                        <div class="portfolio-info">
-                            <a href="SmartEco">
-                                <h4>Smart Economy</h4>
-                            </a>
-                            <p>
-                                <b>E-AGRIPROP</b>
-                                <br>
-                                Perekonomian berdasarkan inovasi teknologi berkonsep sumber daya, daya saing,
-                                pembayaran dan infrastruktur informasi teknologi.
-                            </p>
-                        </div>
-                    </div>
-                </div> --}}
-
-                {{-- konten 5 --}}
-                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
-                    <div class="portfolio-wrap">
-
-                        <img src="{{ asset('img/portfolio/livIcn.png') }}"
-                            class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt=""
-                            width="80">
-                        <img src="{{ asset('img/portfolio/livIcn.png') }}"
-                            class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt=""
-                            width="200">
-
-                        <img src="{{ asset('img/portfolio/living.jpg') }}" class="img-fluid" alt="">
-
-                        <div class="portfolio-info">
-                            <a href="SmartLiv">
-                                <h4>Smart Living</h4>
-                            </a>
-                            <p>
-                                <b>SMART health</b>
-                                <br>
-                                Mewujudkan tempat tinggal yang nyaman, layak dan efisien dengan mengkolaborasikan
-                                penggunaan teknologi dan akses fasilitas yang memadai.
-                            </p>
-                        </div>
-                    </div>
-                </div> --}}
-
-                {{-- konten 6 --}}
-                {{-- <div class="col-lg-4 col-md-6 portfolio-item">
-                    <div class="portfolio-wrap">
-
-                        <img src="{{ asset('img/portfolio/socIcn.png') }}"
-                            class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt=""
-                            width="80">
-                        <img src="{{ asset('img/portfolio/socIcn.png') }}"
-                            class="col-lg-3 position-absolute pt-3 ps-3 img-fluid d-none d-md-block" alt=""
-                            width="200">
-
-                        <img src="{{ asset('img/portfolio/p.jpg') }}" class="img-fluid" alt="">
-
-                        <div class="portfolio-info">
-                            <a href="SmartSoc">
-                                <h4>Smart Society</h4>
-                            </a>
-                            <p>
-                                <b>CONTRA WAR</b>
-                                <br>
-                                Pemanfaatan penggunaan teknologi untuk menghubungkan masyarakat dengan fokus
-                                ekonomi, kesejahteraan dan efektivitas institusi.
-                            </p>
-                        </div>
-                    </div>
-                </div> --}}
 
             </div>
 
@@ -413,60 +235,38 @@
                 <p>Dokumen Smart City Kabupaten Malang</p>
             </header>
 
-            {{-- @foreach ($pdf as $dokumen)
-                <div class="row row-cols-2">
-                    <div class="card rounded-5">
-                        <div class="ri-file-text-line">
-                            <h4>
-                                <a href="https://www.kompas.com/tag/malang" target="blank">
-                                    hai
-                                </a>
-                            </h4>
-                            <p> hai </p>
-                        </div>
-                    </div>
-                    <div class="card rounded-5">
-                        <div class="ri-file-text-line">
-                            <a href="img\Dokumen berisikan tentang informasi Smart City.pdf" target="_blank"> hi </a>
-                        </div>
-                    </div>
-                </div>
-            @endforeach --}}
-
             <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3" data-aos="fade-up">
 
-                @for ($i = 0; $i < 4; $i++)
+                @foreach ($dokumen as $doc)
                     <div class="col-lg-3 col-md-3">
                         <div class="card p-3 border-4"
                             style="border-image: linear-gradient(45deg, rgb(97, 124, 245), rgb(140, 228, 243))1;
                         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                             {{-- linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1 --}}
-                            <div>
+                            <div class="p-3" {{-- style="background-color: skyblue"1 --}}>
                                 <i class="ri-file-text-line" style="font-size: 3.5rem;"></i>
                                 <h4>
-                                    Dokumen berisikan tentang informasi Smart City
+                                    {{ $doc['judul'] }}
                                 </h4>
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    Dokumen berisikan tentang informasi Smart City Kabupaten Malang yang dapat diakses oleh
-                                    masyarakat Kabupaten Malang.
+                                    {{ $doc['deskripsi'] }}
                                 </p>
                                 {{-- <a href="https://www.kompas.com/tag/malang" target="blank" class="btn btn-primary float-end"> --}}
-                                <a href="{{ asset('img/Dokumen berisikan tentang informasi Smart City.pdf') }}"
-                                    target="blank" class="btn btn-primary float-end">
+                                <a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary float-end">
                                     Lihat dokumen
                                 </a>
                             </div>
                         </div>
                     </div>
-                @endfor
+                @endforeach
 
-                <div class="col">
+                {{-- <div class="col">
                     <div class="p-3 border" style="background-color: rgba(136, 235, 238, 0.74)">
                         <i class="ri-file-text-line" style="font-size: 3.5rem"></i>
                         <h4>
-                            {{-- <a href="img/Dokumen berisikan tentang informasi Smart City.pdf" target="_blank"> --}}
+                            <a href="img/Dokumen berisikan tentang informasi Smart City.pdf" target="_blank">
                             <a href="{{ asset('img/Dokumen berisikan tentang informasi Smart City.pdf') }}"
                                 target="_blank">
                                 hai
@@ -474,21 +274,8 @@
                         </h4>
 
                     </div>
-                </div>
+                </div> --}}
 
             </div>
     </section>
-    {{-- <section>
-        <div class="container">
-            <div class="event-section-inner">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="section-title-box">
-                            <h2 class="section-title">DOKUMEN SMART CITY</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> --}}
 @endsection

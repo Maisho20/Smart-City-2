@@ -13,10 +13,7 @@ class DataDokumen extends Model
 
     protected $fillable = [
         'judul',
+        'deskripsi',
         'file',
-        'keterangan',
-        'kategori',
-        'tahun',
-        'upload_at',
     ];
 }

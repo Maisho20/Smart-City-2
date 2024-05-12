@@ -141,9 +141,26 @@
 
             <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
 
-                @for ($i = 0; $i < 6; $i++)
+                @for ($i = 0; $i < 8; $i++)
+                    @foreach ($news as $berita)
+                        <div class="col-lg-3 col-md-5">
+                            <div class="card rounded-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                                <img src="{{ asset($berita['gambar']) }}" class="card-img-top">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        {{ $berita['deskripsi'] }}
+                                    </p>
+                                    <a href="{{ $berita['link'] }}" class="btn btn-primary float-end">Baca lebih
+                                        lengkap</a>
+                                </div>
+                            </div>
+                        </div>
+                    @endforeach
+                @endfor
+
+                {{-- @for ($i = 0; $i < 8; $i++)
                     <div class="col-lg-3 col-md-5">
-                        <div class="card rounded-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <div class="card rounded-5">
                             <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
                                 class="card-img-top">
                             <div class="card-body">
@@ -155,22 +172,9 @@
                             </div>
                         </div>
                     </div>
-                @endfor
+                @endfor --}}
 
                 {{-- <div class="col-lg-3 col-md-5">
-                    <div class="card rounded-5">
-                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
-                            class="card-img-top">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </p>
-                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-5">
                     <div class="card rounded-5">
                         <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
                             class="card-img-top">

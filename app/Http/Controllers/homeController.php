@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\home;
 use App\Models\DataDokumen;
+// use App\Models\berita;
+use App\Models\DataBerita;
 use Illuminate\Support\Facades\File;
 use Barryvdh\DomPDF\Facecades\pdf;
 
@@ -14,6 +16,7 @@ class homeController extends Controller
     {
         $data = home::all();
         $dokumen = DataDokumen::all();
+        $news = DataBerita::all();
 
         foreach ($data as $item) {
             $item->smartIco = asset(substr($item->smartIco, 7, -2));
@@ -23,10 +26,13 @@ class homeController extends Controller
         foreach ($dokumen as $item) {
             $item->file = asset(substr($item->file, 7, -2));
         }
-        // $pdf = app::loadView(compact('dokumen'));
 
-        //  dd($dokumen, $data);
+        // foreach ($news as $item) {
+        //     $item->gambar = asset(substr($item->gambar, 7, -2));
+        // }
 
-        return view('home', compact('data'), compact('dokumen'));
+        //  dd($dokumen, $data, $news);
+
+        return view('home', compact('data', 'news', 'dokumen'));
     }
 }

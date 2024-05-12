@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             HomeSeeder::class,
             DataDokumenSeeder::class,
+            DataBeritaSeeder::class,
         ]);
     }
 }

@@ -258,7 +258,7 @@
                                     {{ $doc['deskripsi'] }}
                                 </p>
                                 {{-- <a href="https://www.kompas.com/tag/malang" target="blank" class="btn btn-primary float-end"> --}}
-                                <a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary float-end">
+                                <a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary-2 float-end">
                                     Lihat dokumen
                                 </a>
                             </div>

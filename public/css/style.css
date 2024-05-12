@@ -2412,19 +2412,18 @@ section {
 }
 
 /* ------- */
-/* dokumen */
+/* button */
 /* ------- */
-/* .event-section .event-section-inner{
-	background-color: var(--thm-primary-light);
-	padding: 120px 80px 110px;
+.btn-primary-2{
+    color:#fff;
+    background-color:#0d6efd;
+    border-color:#0d6efd;
+    transition: all 0.4s;
+    border-radius: 0.5rem;
 }
-@media (max-width: 1399px) {
-	.event-section .event-section-inner {
-		padding: 80px 80px 60px;
-	}
+
+.btn-primary-2:hover{
+    color:#313131;
+    background-color:#4789ec;
+    border-color:#4789ec
 }
-@media (max-width: 767px) {
-	.event-section .event-section-inner {
-		padding: 80px 40px 60px;
-	}
-} */

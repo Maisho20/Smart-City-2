@@ -150,7 +150,7 @@
                                     <p class="card-text">
                                         {{ $berita['deskripsi'] }}
                                     </p>
-                                    <a href="{{ $berita['link'] }}" class="btn btn-primary float-end">Baca lebih
+                                    <a href="{{ asset($berita['link']) }}" target="_blank" class="btn btn-primary float-end">Baca lebih
                                         lengkap</a>
                                 </div>
                             </div>

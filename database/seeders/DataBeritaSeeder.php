@@ -16,7 +16,7 @@ class DataBeritaSeeder extends Seeder
         DB::table('data_beritas')->insert([
             'gambar' => "https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM=",
             'deskripsi' => "Some quick example text to build on the card title and make up the bulk of the card's content.",
-            'link' => '#',
+            'link' => 'https://malangkab.go.id/Berita/index/malangkab-pusat-opd%203507-wakil-bupati-malang-hadiri-pelantikan-dan-pengambilan-sumpah-panitia-pemilihan-kecamatan-se-kabupaten-malang-pada-pemilihan-umum-tahun-2024',
         ]);
     }
 }

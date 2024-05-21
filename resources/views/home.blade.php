@@ -13,6 +13,7 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
                     <li><a class="nav-link scrollto" href="#smart">Smart City</a></li>
+                    <li><a class="nav-link scrollto" href="#nilai">Penilaian</a></li>
                     <li><a class="nav-link scrollto" href="#berita">Berita</a></li>
                     <li><a class="nav-link scrollto" href="#dokumen">Dokumen</a></li>
                 </ul>

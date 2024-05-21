@@ -192,23 +192,23 @@
 
             <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
 
-                @for ($i = 0; $i < 8; $i++)
-                    @foreach ($news as $berita)
-                        <div class="col-lg-3 col-md-5">
-                            <div class="card rounded-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                                <img src="{{ asset($berita['gambar']) }}" class="card-img-top">
-                                <div class="card-body">
-                                    <p class="card-text">
-                                        {{ $berita['deskripsi'] }}
-                                    </p>
-                                    <a href="{{ asset($berita['link']) }}" target="_blank"
-                                        class="btn btn-primary float-end">Baca lebih
-                                        lengkap</a>
-                                </div>
+                {{-- @for ($i = 0; $i < 8; $i++) --}}
+                @foreach ($news as $berita)
+                    <div class="col-lg-3 col-md-5">
+                        <div class="card rounded-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                            <img src="{{ asset($berita['gambar']) }}" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    {{ $berita['deskripsi'] }}
+                                </p>
+                                <a href="{{ asset($berita['link']) }}" target="_blank"
+                                    class="btn btn-primary float-end">Baca lebih
+                                    lengkap</a>
                             </div>
                         </div>
-                    @endforeach
-                @endfor
+                    </div>
+                @endforeach
+                {{-- @endfor --}}
 
                 {{-- @for ($i = 0; $i < 8; $i++)
                     <div class="col-lg-3 col-md-5">

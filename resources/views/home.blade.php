@@ -148,7 +148,7 @@
                 <b class="">Evaluasi tahun 2022 dan 2023</b>
             </div>
 
-            <div class="border rounded p-4" data-aos="fade-left">
+            <div class="rounded p-4" data-aos="fade-left">
                 <ul class="nav nav-pills mb-3 gap-2">
                     <li>
                         <a class="nav-link active" data-bs-toggle="pill" href="#tab1">
@@ -166,11 +166,11 @@
                 <div class="tab-content">
 
                     <div class="tab-pane fade show active" id="tab1">
-                        <img src="{{asset('img/penilaian/penilaian-2023.jpg')}}" alt="" srcset="">
+                        <img class="img-fluid rounded" src="{{asset('img/penilaian/penilaian-2023.jpg')}}" alt="" srcset="">
                     </div>
                     <!-- End Tab 1 Content -->
                     <div class="tab-pane fade show" id="tab2">
-                        <img src="{{asset('img/penilaian/penilaian-2023.jpg')}}" alt="" srcset="">
+                        <img class="img-fluid rounded" src="{{asset('img/penilaian/penilaian-2023.jpg')}}" alt="" srcset="">
                     </div>
                     <!-- End Tab 2 Content -->
                 </div>

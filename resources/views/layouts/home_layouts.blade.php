@@ -45,6 +45,11 @@
     {{-- link animate CSS --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    {{-- slider --}}
+    <link rel="stylesheet" href="{{ asset('css/slider.css') }}">
+
+    {{-- link font awesome --}}
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2507708786892986"
         crossorigin="anonymous"></script>
 </head>

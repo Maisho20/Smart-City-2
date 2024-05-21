@@ -29,8 +29,14 @@
         <div class="container-xxl py-5 pt-5" id="about">
             <div class="container">
                 <div class="row g-4 align-items-end mb-4">
-                    <div class="col-lg-6" data-aos="fade-right">
+
+                    <div class="col-lg-6 mySlides fade" data-aos="fade-right">
                         <img class="img-fluid rounded" src="{{ asset('img/florawisata.jpg') }}"
+                            style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    </div>
+
+                    <div class="col-lg-6 mySlides fade" data-aos="fade-right">
+                        <img class="img-fluid rounded" src="{{ asset('img/aboutus.jpg') }}"
                             style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                     </div>
 
@@ -55,6 +61,7 @@
                                     </button>
                                 </div>
                             </nav>
+
                             <div class="tab-content" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-story" role="tabpanel"
                                     aria-labelledby="nav-story-tab">

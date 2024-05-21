@@ -133,52 +133,53 @@
 @endsection
 
 @section('nilai')
-<section id="nilai">
-    <div class="container">
+    <section id="nilai">
+        <div class="container">
 
-        <header class="section-header" data-aos="fade-down">
-            <p>Penilaian Smart City Kabupaten Malang</p>
-        </header>
+            <header class="section-header" data-aos="fade-down">
+                <p>Penilaian Smart City Kabupaten Malang</p>
+            </header>
 
-        <div class="d-flex flex-sm-column justify-content-center text-center p-5">
-            <div class="col pb-3" data-aos="fade-right">
-                <img class="img-fluid rounded mb-3" src="{{ asset('img/penilaian/penilaian-eval-kabMalang.jpg') }}"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                </br>
-                <b class="">Evaluasi tahun 2022 dan 2023</b>
-            </div>
-
-            <div class="rounded p-4" data-aos="fade-left">
-                <ul class="nav nav-pills mb-3 gap-2">
-                    <li>
-                        <a class="nav-link active" data-bs-toggle="pill" href="#tab1">
-                            Tahun 2022
-                        </a>
-                    </li>
-                    <li>
-                        <a class="nav-link" data-bs-toggle="pill" href="#tab2">
-                            Tahun 2023
-                        </a>
-                    </li>
-                </ul>
-
-                <!-- Tab Content -->
-                <div class="tab-content">
-
-                    <div class="tab-pane fade show active" id="tab1">
-                        <img class="img-fluid rounded" src="{{asset('img/penilaian/penilaian-2023.jpg')}}" alt="" srcset="">
-                    </div>
-                    <!-- End Tab 1 Content -->
-                    <div class="tab-pane fade show" id="tab2">
-                        <img class="img-fluid rounded" src="{{asset('img/penilaian/penilaian-2023.jpg')}}" alt="" srcset="">
-                    </div>
-                    <!-- End Tab 2 Content -->
+            <div class="d-flex flex-sm-column text-center p-5">
+                <div class="col pb-3" data-aos="fade-right">
+                    <img class="img-fluid rounded mb-3" src="{{ asset('img/penilaian/penilaian-eval-kabMalang.jpg') }}"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    </br>
+                    <b class="">Evaluasi tahun 2022 dan 2023</b>
                 </div>
-                {{-- end --}}
+
+                <div class="border rounded col pb-4 pt-4 align-items-center" data-aos="fade-left">
+                    <ul class="nav nav-pills mb-3 gap-2 ps-5 ms-3">
+                        <li>
+                            <a class="nav-link active" data-bs-toggle="pill" href="#tab1">
+                                Tahun 2022
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" data-bs-toggle="pill" href="#tab2">
+                                Tahun 2023
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Tab Content -->
+                    <div class="tab-content align-items-center">
+                        <div class="tab-pane fade show active" id="tab1">
+                            <img class="img-fluid rounded" src="{{ asset('img/penilaian/penilaian-2023.jpg') }}"
+                                alt="" srcset="">
+                        </div>
+                        <!-- End Tab 1 Content -->
+                        <div class="tab-pane fade show" id="tab2">
+                            <img class="img-fluid rounded" src="{{ asset('img/penilaian/penilaian-2023.jpg') }}"
+                                alt="" srcset="">
+                        </div>
+                        <!-- End Tab 2 Content -->
+                    </div>
+                    {{-- end --}}
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 @endsection
 
 @section('berita')
@@ -199,7 +200,8 @@
                                     <p class="card-text">
                                         {{ $berita['deskripsi'] }}
                                     </p>
-                                    <a href="{{ asset($berita['link']) }}" target="_blank" class="btn btn-primary float-end">Baca lebih
+                                    <a href="{{ asset($berita['link']) }}" target="_blank"
+                                        class="btn btn-primary float-end">Baca lebih
                                         lengkap</a>
                                 </div>
                             </div>

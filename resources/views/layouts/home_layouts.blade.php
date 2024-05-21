@@ -57,6 +57,8 @@
 
     @yield('content')
 
+    @yield('nilai')
+
     @yield('berita')
 
     @yield('dokumen')

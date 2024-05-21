@@ -146,6 +146,7 @@
                         </div>
                         <!-- End Tab 2 Content -->
                     </div>
+                    {{-- end --}}
                 </div>
                 <div class="col-lg-5">
                     <img src="{{ asset('img/Smart/Eco/Eco2.png') }}" class="img-fluid" alt="">

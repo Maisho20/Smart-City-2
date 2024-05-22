@@ -65,27 +65,51 @@
                             <div class="tab-content" id="nav-tabContent">
                                 <div class="tab-pane fade show active" id="nav-story" role="tabpanel"
                                     aria-labelledby="nav-story-tab">
-                                    <p>
-                                        Salah satu dari ciri khas Kabupaten Malang yaitu florawisata Santerra de Laponte
-                                        yang menjadi
-                                        brandingnya. Adapun pembahasan tentang Smart Branding dengan memberikan rekomendasi
-                                        seputar
-                                        wisata di Kabupaten Malang.
-                                    </p>
-                                    <p>
-                                        Dengan menguatkan Smart Branding, Kabupaten Malang dinilai telah mampu mengembangkan
-                                        wisata
-                                        untuk warga lokal ataupun luar dari Kabupaten Malang. Menciptakan tempat wisata yang
-                                        menarik dan
-                                        harga yang terjangkau.
-                                    </p>
-                                    <p>
-                                        Namun, bukan Santerra de Laponte saja yang dikembangkan. Jika menelaah dari Smart
-                                        Branding
-                                        akan lebih banyak lagi rekomendasi yang diberikan oleh pengelola wisata di Kabupaten
-                                        Malang untuk warga lokal
-                                        dan turis yang sedang ataupun ingin berlibur di Kabupaten Malang.
-                                    </p>
+                                    <div class="mySlides-2 fade-2">
+                                        <p>
+                                            Salah satu dari ciri khas Kabupaten Malang yaitu florawisata Santerra de Laponte
+                                            yang menjadi
+                                            brandingnya. Adapun pembahasan tentang Smart Branding dengan memberikan
+                                            rekomendasi
+                                            seputar
+                                            wisata di Kabupaten Malang.
+                                        </p>
+                                        <p>
+                                            Dengan menguatkan Smart Branding, Kabupaten Malang dinilai telah mampu
+                                            mengembangkan
+                                            wisata
+                                            untuk warga lokal ataupun luar dari Kabupaten Malang. Menciptakan tempat wisata
+                                            yang
+                                            menarik dan
+                                            harga yang terjangkau.
+                                        </p>
+                                        <p>
+                                            Namun, bukan Santerra de Laponte saja yang dikembangkan. Jika menelaah dari
+                                            Smart
+                                            Branding
+                                            akan lebih banyak lagi rekomendasi yang diberikan oleh pengelola wisata di
+                                            Kabupaten
+                                            Malang untuk warga lokal
+                                            dan turis yang sedang ataupun ingin berlibur di Kabupaten Malang.
+                                        </p>
+                                    </div>
+
+                                    <div class="mySlides-2 fade-2">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatem ut
+                                            quidem dolores quia aut eveniet consequuntur! Vero consectetur cumque officia
+                                            ipsa similique, odit incidunt cupiditate impedit nemo pariatur fugit?
+                                        </p>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium similique
+                                            dolor veniam eligendi, maxime quasi, non dignissimos sint eum voluptate saepe
+                                            alias magnam odit ab. Ratione nihil sunt possimus soluta.
+                                        </p>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime molestias
+                                            numquam modi, doloribus harum ipsum sit in, architecto illum temporibus corporis
+                                            consectetur expedita iure ullam culpa. Dolorum beatae illo consectetur?
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

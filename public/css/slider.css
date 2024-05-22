@@ -9,12 +9,28 @@
     animation-duration: 1.5s;
 }
 
-.fade {
-    animation-name: fade;
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* 2 */
+.mySlides-2 {
+    display: none;
+}
+
+.fade-2 {
+    -webkit-animation-name: fade-2;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade-2;
     animation-duration: 1.5s;
 }
 
-@keyframes fade {
+@keyframes fade-2 {
     from {
         opacity: 0.4;
     }

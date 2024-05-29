@@ -29,7 +29,7 @@ class HomeSeeder extends Seeder
         // 2
         DB::table('homes')->insert([
             'smartIco' => "asset('img/portfolio/govIcn.png')",
-            'smartImg' => "asset('img\portfolio\gov.jpg')",
+            'smartImg' => "asset('img/portfolio/gov.jpg')",
             'routes' => 'SmartGov',
             'judulSmart' => 'Smart Governance',
             'subJudulSmart' => 'DESAKU TUNTAS',

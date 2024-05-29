@@ -8,6 +8,7 @@ use App\Http\Controllers\SmartBrandController;
 use App\Http\Controllers\SmartLivController;
 use App\Http\Controllers\SmartSocController;
 use App\Http\Controllers\SmartEcoController;
+use App\Http\Controllers\adminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,3 +32,5 @@ Route::get('/SmartBrand', [SmartBrandController::class, 'index'])->name('SmartBr
 Route::get('/SmartLiv', [SmartLivController::class, 'index'])->name('SmartLiv');
 Route::get('/SmartSoc', [SmartSocController::class, 'index'])->name('SmartSoc');
 Route::get('/SmartEco', [SmartEcoController::class, 'index'])->name('SmartEco');
+
+Route::get('/admin', [adminController::class, 'index'])->name('admin');

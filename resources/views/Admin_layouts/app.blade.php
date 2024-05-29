@@ -31,7 +31,20 @@
 </head>
 
 <body>
-    @include('Admin_layouts.navbar')
+
+    <div class="container-scroller">
+        @include('Admin_layouts.sidebar')
+
+        <div class="container-fluid page-body-wrapper">
+            @include('Admin_layouts.navbar')
+
+            <div class="main-panel">
+                @yield('content')
+
+                @include('Admin_layouts.footer')
+            </div>
+        </div>
+    </div>
 
 
     <script src="{{ asset('admin_template/template/assets/vendors/js/vendor.bundle.base.js') }}"></script>

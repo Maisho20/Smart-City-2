@@ -1,4 +1,4 @@
-@extends('layouts.home_layouts')
+@extends('Home_layout.home_layouts')
 
 @section('header')
     <header id="header" class="header fixed-top">
@@ -98,19 +98,33 @@
                                     </div>
 
                                     <div class="mySlides-2 fade-2">
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatem ut
-                                            quidem dolores quia aut eveniet consequuntur! Vero consectetur cumque officia
-                                            ipsa similique, odit incidunt cupiditate impedit nemo pariatur fugit?
+                                        <p>
+                                            Terletak di Desa Sitiarjo, Kecamatan Sumber Manjing Wetan, Kabupaten Malang.
+                                            Jarak
+                                            tempuh menuju Pantai 3 Warna dari pusat Kota Malang sekitar 150 km atau sekitar
+                                            3 jam
+                                            dengan kendaraan roda dua maupun roda empat.
                                         </p>
                                         <p>
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium similique
-                                            dolor veniam eligendi, maxime quasi, non dignissimos sint eum voluptate saepe
-                                            alias magnam odit ab. Ratione nihil sunt possimus soluta.
+                                            Rute Pantai 3 Warna dari wilayah Kota Malang, wisatawan dapat menuju ke
+                                            Kecamatan Bululawang kemudian Kecamatan Turen dan langsung ke area Pantai
+                                            Sendang Biru.
+                                            Sesampainya arah Pantai Sendang Biru, ikuti arah ke Clungup Mangrove
+                                            Conservation.
                                         </p>
                                         <p>
-                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime molestias
-                                            numquam modi, doloribus harum ipsum sit in, architecto illum temporibus corporis
-                                            consectetur expedita iure ullam culpa. Dolorum beatae illo consectetur?
+                                            Pantai Tiga Warna terletak di Kecamatan Sumber Manjing Wetan, Kabupaten
+                                            Malang, Jawa Timur. Pantai ini memiliki gradasi yang terdiri dari tiga warna,
+                                            yaitu
+                                            Warna biru pada bagian terdalam, hijau pada bagian terdangkal, dan cokelat
+                                            kemerahan
+                                            pada pasir pantai.
+                                        </p>
+                                        <p>Harga tiket masuk Pantai 3 Warna adalah Rp 10 ribu per orang. Pengunjung
+                                            diwajibkan
+                                            menyewa pemandu wisata sebesar Rp 100 ribu untuk setiap rombongan yang berjumlah
+                                            10
+                                            orang.
                                         </p>
                                     </div>
                                 </div>
@@ -332,7 +346,7 @@
             <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3" data-aos="fade-up">
 
                 @foreach ($dokumen as $doc)
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-2 col-md-2">
                         <div class="card p-3 border-4"
                             style="border-image: linear-gradient(45deg, rgb(97, 124, 245), rgb(140, 228, 243))1;
                         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
@@ -344,9 +358,9 @@
                                 </h4>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">
+                                {{-- <p class="card-text">
                                     {{ $doc['deskripsi'] }}
-                                </p>
+                                </p> --}}
                                 {{-- <a href="https://www.kompas.com/tag/malang" target="blank" class="btn btn-primary float-end"> --}}
                                 <a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary-2 float-end">
                                     Lihat dokumen

@@ -190,17 +190,10 @@
                 <p>Penilaian Smart City Kabupaten Malang</p>
             </header>
 
-            <div class="d-flex flex-column text-center p-5">
-                <div class="col pb-3" data-aos="fade-right">
-                    <img class="img-fluid rounded mb-3" src="{{ asset('img/penilaian/penilaian-eval-kabMalang.jpg') }}"
-                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    </br>
-                    <b class="">Evaluasi tahun 2022 dan 2023</b>
-                </div>
-
-                <div class="border rounded col pb-4 pt-4 align-items-center"
+            <div class="col pb-4 pt-4 align-items-center"
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"data-aos="fade-left">
-                    <ul class="nav nav-pills mb-3 gap-2 px-5 mx-3">
+
+                    <ul class="nav nav-pills mb-3 gap-2 px-5 mx-3 justify-content-center">
                         <li>
                             <a class="nav-link active" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;"
                                 data-bs-toggle="pill" href="#tab1">
@@ -215,8 +208,21 @@
                         </li>
                     </ul>
 
+            <div class="d-flex flex-column text-center p-5">
+                <div class="col pb-3" data-aos="fade-right">
+                    <img class="img-fluid rounded mb-3" src="{{ asset('img/penilaian/penilaian-eval-kabMalang.jpg') }}"
+                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                    </br>
+                    <b class="">Evaluasi tahun 2022 dan 2023</b>
+                </br>
+                <a href="#" target="blank"> Selengkapnya </a>
+                </div>
+
+                
+                    
+
                     <!-- Tab Content -->
-                    <div class="tab-content align-items-center">
+                    <div class="border rounded tab-content align-items-center">
                         <div class="tab-pane fade show active" id="tab1">
                             <img class="img-fluid rounded" src="{{ asset('img/penilaian/penilaian-2023.jpg') }}"
                                 alt="" srcset="">
@@ -350,22 +356,25 @@
                         <div class="card p-3 border-4"
                             style="border-image: linear-gradient(45deg, rgb(97, 124, 245), rgb(140, 228, 243))1;
                         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        <img src="img/tampilan dokumen.jpg" class="card-img-top">
                             {{-- linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1 --}}
                             <div class="p-3" {{-- style="background-color: skyblue"1 --}}>
-                                <i class="ri-file-text-line" style="font-size: 3.5rem;"></i>
-                                <h4>
-                                    {{ $doc['judul'] }}
-                                </h4>
+                                {{--<i class="ri-file-text-line" style="font-size: 3.5rem;"></i>--}}
+                                <h5>
+                                    <a href="{{ asset($doc['judul'])}}" target="blank">
+                                        judul
+                                    </a> {{--$doc['judul'] }}--}}
+                                </h5>
                             </div>
-                            <div class="card-body">
+                            {{--<div class="card-body">
                                 {{-- <p class="card-text">
                                     {{ $doc['deskripsi'] }}
                                 </p> --}}
                                 {{-- <a href="https://www.kompas.com/tag/malang" target="blank" class="btn btn-primary float-end"> --}}
-                                <a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary-2 float-end">
+                                {{--<a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary-2 float-end">
                                     Lihat dokumen
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 @endforeach

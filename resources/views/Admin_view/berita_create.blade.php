@@ -15,17 +15,12 @@
                             <div class="col-5 col-sm-7 col-xl-8 p-0">
                                 <h2 class="mb-1 mb-sm-0">Selamat Datang di Halaman Admin</h2>
                             </div>
-                            <div class="col-lg-12 grid-margin stretch-card">
+
+                            {{-- <div class="col-lg-12 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
                                         <div class="d-flex justify-content-between align-items-center mb-2">
-                                            <h4 class="card-title m-0 align-items-center">Berita Smart City</h4>
-
-                                            <a href="{{ route('admin_berita.create') }}"
-                                                class="btn btn-primary align-self-center">
-                                                <i class="fas fa-plus"></i>
-                                                Tambah data
-                                            </a>
+                                            <h4 class="card-title m-0 align-items-center">Tambah Berita Smart City</h4>
                                         </div>
 
                                         <div class="table-responsive">
@@ -63,9 +58,42 @@
                                                 </tbody>
                                             </table>
                                         </div>
+
+                                    </div>
+                                </div>
+                            </div> --}}
+
+                            <div class="col-12 grid-margin stretch-card">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Tambah Berita Smart City</h4>
+                                        {{-- <p class="card-description"> Basic form elements </p> --}}
+                                        <form class="forms-sample" action="{{ route('admin_berita.store') }}"
+                                            method="POST">
+                                            @csrf
+                                            <div class="form-group">
+                                                <label for="exampleInputName1">Gambar</label>
+                                                <input type="text" name="gambar" class="form-control text-white"
+                                                    id="exampleInputName1" placeholder="asset('img/berita/Nama gambar')">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail3">Deskripsi</label>
+                                                <input type="text" name="deskripsi" class="form-control text-white"
+                                                    id="exampleInputEmail3" placeholder="Deskripsi">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword4">Link</label>
+                                                <input type="text" name="link" class="form-control text-white"
+                                                    id="exampleInputPassword4" placeholder="Link">
+                                            </div>
+
+                                            <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                                            <button class="btn btn-dark">Cancel</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>

@@ -21,25 +21,25 @@
                                         <div class="table-responsive">
                                             <table class="table table-bordered" style="color: rgb(233, 232, 232)">
                                                 <thead>
-                                                    <tr>
+                                                    <tr class="text-center">
                                                         <th>No</th>
+                                                        <th>Judul Smart</th>
                                                         <th>Smart Ico</th>
                                                         <th>Smart Img</th>
                                                         <th>Routes</th>
-                                                        <th>Judul Smart</th>
                                                         <th>Sub Judul Smart</th>
                                                         <th>Deskripsi Smart</th>
                                                     </tr>
                                                 </thead>
-                                                <tbody>
+                                                <tbody class="text-center">
                                                     @isset($homeDatas)
                                                         @foreach ($homeDatas as $homeData)
                                                             <tr {{-- onclick="window.location='{{ route('detail_admin.show', ['id' => $homeData->id]) }}'" --}}>
                                                                 <td>{{ $homeData->id }}</td>
+                                                                <td>{{ $homeData->judulSmart }}</td>
                                                                 <td>{{ $homeData->smartIco }}</td>
                                                                 <td>{{ $homeData->smartImg }}</td>
                                                                 <td>{{ $homeData->routes }}</td>
-                                                                <td>{{ $homeData->judulSmart }}</td>
                                                                 <td>{{ $homeData->subJudulSmart }}</td>
                                                                 <td>{{ $homeData->smartDesc }}</td>
                                                                 {{-- <td>

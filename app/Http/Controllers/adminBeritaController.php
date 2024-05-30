@@ -15,4 +15,9 @@ class adminBeritaController extends Controller
 
         return view('Admin_view.berita', compact('beritaDatas'));
     }
+
+    public function create()
+    {
+        return view('Admin_view.berita_create');
+    }
 }

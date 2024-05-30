@@ -39,3 +39,6 @@ Route::get('/SmartEco', [SmartEcoController::class, 'index'])->name('SmartEco');
 Route::get('/admin_smart', [adminController::class, 'index'])->name('admin_smart');
 Route::get('/admin_berita', [adminBeritaController::class, 'index'])->name('admin_berita');
 Route::get('/admin_dokumen', [adminDokumenController::class, 'index'])->name('admin_dokumen');
+
+Route::get('/admin_berita/create', [adminBeritaController::class, 'create'])->name('admin_berita.create');
+Route::post('/admin_berita/store', [adminBeritaController::class, 'store'])->name('admin_berita.store');

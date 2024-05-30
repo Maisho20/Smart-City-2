@@ -18,19 +18,27 @@
                             <div class="col-lg-12 grid-margin stretch-card">
                                 <div class="card">
                                     <div class="card-body">
-                                        <h4 class="card-title">Berita Smart City</h4>
-                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center mb-2">
+                                            <h4 class="card-title m-0 align-items-center">Dokumen Smart City</h4>
+
+                                            <a href="" class="btn btn-primary align-self-center">
+                                                <i class="fas fa-plus"></i>
+                                                Tambah data
+                                            </a>
+                                        </div>
+
                                         <div class="table-responsive">
                                             <table class="table table-bordered" style="color: rgb(233, 232, 232)">
                                                 <thead>
-                                                    <tr>
+                                                    <tr class="text-center">
                                                         <th> No </th>
                                                         <th> Judul </th>
                                                         <th> Deskripsi </th>
                                                         <th> File </th>
+                                                        <th> Action </th>
                                                     </tr>
                                                 </thead>
-                                                <tbody>
+                                                <tbody class="text-center">
                                                     @isset($dokumenDatas)
                                                         @foreach ($dokumenDatas as $dokumenData)
                                                             <tr>
@@ -38,6 +46,16 @@
                                                                 <td>{{ $dokumenData->judul }}</td>
                                                                 <td>{{ $dokumenData->deskripsi }}</td>
                                                                 <td>{{ $dokumenData->file }}</td>
+                                                                <td>
+                                                                    <a href="" class="btn btn-success">
+                                                                        <i class="fas fa-pen"></i>
+                                                                        Edit
+                                                                    </a>
+                                                                    <a href="" class="btn btn-danger">
+                                                                        <i class="fas fa-trash-can"></i>
+                                                                        Delete
+                                                                    </a>
+                                                                </td>
                                                             </tr>
                                                         @endforeach
                                                     @endisset

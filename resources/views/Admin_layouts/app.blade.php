@@ -27,8 +27,33 @@
     <!-- Layout styles -->
     <link rel="stylesheet" href="{{ asset('admin_template/template/assets/css/style.css') }}">
     <!-- End layout styles -->
-    <link rel="shortcut icon" href="{{ asset('admin_template/template/assets/images/favicon.png') }}" />
+    {{-- <link rel="shortcut icon" href="{{ asset('admin_template/template/assets/images/favicon.png') }}" /> --}}
+    <link href="{{ asset('img/Smart/Logo_Kabupaten_Malang_-_Seal_of_Malang_Regency.svg.png') }}" rel="icon">
+    <link href="{{ asset('img/Smart/Logo_Kabupaten_Malang_-_Seal_of_Malang_Regency.svg.png') }}" rel="apple-touch-icon">
+
+    {{-- Fonts Awesome --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css">
 </head>
+
+<style>
+    html::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
+        scroll-behavior: smooth;
+    }
+
+    html::-webkit-scrollbar-thumb {
+        width: 0;
+        background: transparent;
+        scroll-behavior: smooth;
+    }
+
+    :root {
+        scroll-behavior: smooth;
+    }
+</style>
 
 <body>
 
@@ -45,6 +70,8 @@
             </div>
         </div>
     </div>
+
+    @include('scrollToTop')
 
 
     <script src="{{ asset('admin_template/template/assets/vendors/js/vendor.bundle.base.js') }}"></script>

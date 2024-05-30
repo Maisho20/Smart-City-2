@@ -8,7 +8,10 @@ use App\Http\Controllers\SmartBrandController;
 use App\Http\Controllers\SmartLivController;
 use App\Http\Controllers\SmartSocController;
 use App\Http\Controllers\SmartEcoController;
+
 use App\Http\Controllers\adminController;
+use App\Http\Controllers\adminBeritaController;
+use App\Http\Controllers\adminDokumenController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,4 +36,6 @@ Route::get('/SmartLiv', [SmartLivController::class, 'index'])->name('SmartLiv');
 Route::get('/SmartSoc', [SmartSocController::class, 'index'])->name('SmartSoc');
 Route::get('/SmartEco', [SmartEcoController::class, 'index'])->name('SmartEco');
 
-Route::get('/admin', [adminController::class, 'index'])->name('admin');
+Route::get('/admin_smart', [adminController::class, 'index'])->name('admin_smart');
+Route::get('/admin_berita', [adminBeritaController::class, 'index'])->name('admin_berita');
+Route::get('/admin_dokumen', [adminDokumenController::class, 'index'])->name('admin_dokumen');

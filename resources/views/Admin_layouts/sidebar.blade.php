@@ -7,7 +7,7 @@
             <span class="nav-link">Smart CIty</span>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="">
+            <a class="nav-link" href="{{ route('admin_smart') }}">
                 <span class="menu-icon">
                     <i class="mdi mdi-speedometer"></i>
                 </span>
@@ -15,7 +15,7 @@
             </a>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="">
+            <a class="nav-link" href="{{ route('admin_berita') }}">
                 <span class="menu-icon">
                     <i class="mdi mdi-table-large"></i>
                 </span>
@@ -23,7 +23,7 @@
             </a>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="">
+            <a class="nav-link" href="{{ route('admin_dokumen') }}">
                 <span class="menu-icon">
                     <i class="mdi mdi-dialpad"></i>
                 </span>

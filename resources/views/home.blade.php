@@ -152,23 +152,23 @@
                 @foreach ($data as $item)
                     <div class="col-lg-4 col-md-6 portfolio-item">
                         <div class="portfolio-wrap" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                            <img src="{{ asset($item['smartIco']) }}"
+                            <img src="{{ asset($item->smartIco) }}"
                                 class="col-lg-1 position-absolute pt-3 ps-3 img-fluid d-md-none d-block" alt=""
                                 width="80">
-                            <img src="{{ asset($item['smartIco']) }}"
+                            <img src="{{ asset($item->smartIco) }}"
                                 class="col-lg-3 position-absolute pt-3 ps-3 d-none d-md-block img-fluid" alt=""
                                 width="200">
 
-                            <img src="{{ asset($item['smartImg']) }}" class="img-fluid" alt="">
+                            <img src="{{ asset($item->smartImg) }}" class="img-fluid" alt="">
 
                             <div class="portfolio-info">
-                                <a href="{{ $item['routes'] }}">
-                                    <h4>{{ $item['judulSmart'] }}</h4>
+                                <a href="{{ $item->routes }}">
+                                    <h4>{{ $item->judulSmart }}</h4>
                                 </a>
                                 <p>
-                                    <b>{{ $item['subJudulSmart'] }}</b>
+                                    <b>{{ $item->subJudulSmart }}</b>
                                     <br>
-                                    {{ $item['smartDesc'] }}
+                                    {{ $item->smartDesc }}
                                 </p>
                             </div>
                         </div>
@@ -191,35 +191,36 @@
             </header>
 
             <div class="col pb-4 pt-4 align-items-center"
-                    style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"data-aos="fade-left">
+                style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"data-aos="fade-left">
 
-                    <ul class="nav nav-pills mb-3 gap-2 px-5 mx-3 justify-content-center">
-                        <li>
-                            <a class="nav-link active" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;"
-                                data-bs-toggle="pill" href="#tab1">
-                                Tahun 2022
-                            </a>
-                        </li>
-                        <li>
-                            <a class="nav-link" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;"
-                                data-bs-toggle="pill" href="#tab2">
-                                Tahun 2023
-                            </a>
-                        </li>
-                    </ul>
+                <ul class="nav nav-pills mb-3 gap-2 px-5 mx-3 justify-content-center">
+                    <li>
+                        <a class="nav-link active" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;"
+                            data-bs-toggle="pill" href="#tab1">
+                            Tahun 2022
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;" data-bs-toggle="pill"
+                            href="#tab2">
+                            Tahun 2023
+                        </a>
+                    </li>
+                </ul>
 
-            <div class="d-flex flex-column text-center p-5">
-                <div class="col pb-3" data-aos="fade-right">
-                    <img class="img-fluid rounded mb-3" src="{{ asset('img/penilaian/penilaian-eval-kabMalang.jpg') }}"
-                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                    </br>
-                    <b class="">Evaluasi tahun 2022 dan 2023</b>
-                </br>
-                <a href="#" target="blank"> Selengkapnya </a>
-                </div>
+                <div class="d-flex flex-column text-center p-5">
+                    <div class="col pb-3" data-aos="fade-right">
+                        <img class="img-fluid rounded mb-3"
+                            src="{{ asset('img/penilaian/penilaian-eval-kabMalang.jpg') }}"
+                            style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                        </br>
+                        <b class="">Evaluasi tahun 2022 dan 2023</b>
+                        </br>
+                        <a href="#" target="blank"> Selengkapnya </a>
+                    </div>
 
-                
-                    
+
+
 
                     <!-- Tab Content -->
                     <div class="border rounded tab-content align-items-center">
@@ -356,22 +357,22 @@
                         <div class="card p-3 border-4"
                             style="border-image: linear-gradient(45deg, rgb(97, 124, 245), rgb(140, 228, 243))1;
                         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                        <img src="img/tampilan dokumen.jpg" class="card-img-top">
+                            <img src="img/tampilan dokumen.jpg" class="card-img-top">
                             {{-- linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1 --}}
                             <div class="p-3" {{-- style="background-color: skyblue"1 --}}>
-                                {{--<i class="ri-file-text-line" style="font-size: 3.5rem;"></i>--}}
+                                {{-- <i class="ri-file-text-line" style="font-size: 3.5rem;"></i> --}}
                                 <h5>
-                                    <a href="{{ asset($doc['judul'])}}" target="blank">
+                                    <a href="{{ asset($doc['judul']) }}" target="blank">
                                         judul
-                                    </a> {{--$doc['judul'] }}--}}
+                                    </a> {{-- $doc['judul'] }} --}}
                                 </h5>
                             </div>
-                            {{--<div class="card-body">
+                            {{-- <div class="card-body">
                                 {{-- <p class="card-text">
                                     {{ $doc['deskripsi'] }}
                                 </p> --}}
-                                {{-- <a href="https://www.kompas.com/tag/malang" target="blank" class="btn btn-primary float-end"> --}}
-                                {{--<a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary-2 float-end">
+                            {{-- <a href="https://www.kompas.com/tag/malang" target="blank" class="btn btn-primary float-end"> --}}
+                            {{-- <a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary-2 float-end">
                                     Lihat dokumen
                                 </a>
                             </div> --}}

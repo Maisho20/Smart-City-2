@@ -14,24 +14,23 @@ class homeController extends Controller
 {
     public function index()
     {
-        $data = home::all();
-        $dokumen = DataDokumen::all();
-        $news = DataBerita::all();
+        $data = home::get();
+        $dokumen = DataDokumen::get();
+        $news = DataBerita::get();
+        // dd($data, $dokumen, $news);
 
-        foreach ($data as $item) {
-            $item->smartIco = asset(substr($item->smartIco, 7, -2));
-            $item->smartImg = asset(substr($item->smartImg, 7, -2));
-        }
+        // foreach ($data as $item) {
+        //     $item->smartIco = asset(substr($item->smartIco, 7, -2));
+        //     $item->smartImg = asset(substr($item->smartImg, 7, -2));
+        // }
 
-        foreach ($dokumen as $item) {
-            $item->file = asset(substr($item->file, 7, -2));
-        }
+        // foreach ($dokumen as $item) {
+        //     $item->file = asset(substr($item->file, 7, -2));
+        // }
 
         // foreach ($news as $item) {
         //     $item->gambar = asset(substr($item->gambar, 7, -2));
         // }
-
-        //  dd($dokumen, $data, $news);
 
         return view('home', compact('data', 'news', 'dokumen'));
     }

@@ -17,8 +17,8 @@ class HomeSeeder extends Seeder
     {
         // 1
         DB::table('homes')->insert([
-            'smartIco' => "asset('img/portfolio/envIcn.png')",
-            'smartImg' => "asset('img/portfolio/environment.jpg')",
+            'smartIco' => "envIcn.png",
+            'smartImg' => "environment.jpg",
             'routes' => 'SmartEnv',
             'judulSmart' => 'Smart Environment',
             'subJudulSmart' => 'Wisata Edukasi & Edu Sampah Cipta Kerja',
@@ -28,8 +28,8 @@ class HomeSeeder extends Seeder
 
         // 2
         DB::table('homes')->insert([
-            'smartIco' => "asset('img/portfolio/govIcn.png')",
-            'smartImg' => "asset('img/portfolio/gov.jpg')",
+            'smartIco' => "govIcn.png",
+            'smartImg' => "gov.jpg",
             'routes' => 'SmartGov',
             'judulSmart' => 'Smart Governance',
             'subJudulSmart' => 'DESAKU TUNTAS',
@@ -38,8 +38,8 @@ class HomeSeeder extends Seeder
 
         // 3
         DB::table('homes')->insert([
-            'smartIco' => "asset('img/portfolio/brndIcn.png')",
-            'smartImg' => "asset('img/portfolio/bran.jpg')",
+            'smartIco' => "brndIcn.png",
+            'smartImg' => "bran.jpg",
             'routes' => 'SmartBrand',
             'judulSmart' => 'Smart Branding',
             'subJudulSmart' => 'MATIC',
@@ -49,8 +49,8 @@ class HomeSeeder extends Seeder
 
         // 4
         DB::table('homes')->insert([
-            'smartIco' => "asset('img/portfolio/ecoIcn.png')",
-            'smartImg' => "asset('img/portfolio/eco.jpg')",
+            'smartIco' => "ecoIcn.png",
+            'smartImg' => "eco.jpg",
             'routes' => 'SmartEco',
             'judulSmart' => 'Smart Economy',
             'subJudulSmart' => 'E-AGRIPROP',
@@ -60,8 +60,8 @@ class HomeSeeder extends Seeder
 
         // 5
         DB::table('homes')->insert([
-            'smartIco' => "asset('img/portfolio/livIcn.png')",
-            'smartImg' => "asset('img/portfolio/living.jpg')",
+            'smartIco' => "livIcn.png",
+            'smartImg' => "living.jpg",
             'routes' => 'SmartLiv',
             'judulSmart' => 'Smart Living',
             'subJudulSmart' => 'Smart health',
@@ -71,8 +71,8 @@ class HomeSeeder extends Seeder
 
         // 6
         DB::table('homes')->insert([
-            'smartIco' => "asset('img/portfolio/socIcn.png')",
-            'smartImg' => "asset('img/portfolio/p.jpg')",
+            'smartIco' => "socIcn.png",
+            'smartImg' => "p.jpg",
             'routes' => 'SmartSoc',
             'judulSmart' => 'Smart Society',
             'subJudulSmart' => 'CONTRA WAR',

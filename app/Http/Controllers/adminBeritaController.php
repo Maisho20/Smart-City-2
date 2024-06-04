@@ -20,4 +20,23 @@ class adminBeritaController extends Controller
     {
         return view('Admin_view.berita_create');
     }
+
+    public function store(Request $request)
+    {
+        dd($request->all());
+        // $request->validate([
+        //     'judul' => 'required',
+        //     'isi' => 'required',
+        //     'gambar' => 'required',
+        // ]);
+
+        // $beritaDatas = new DataBerita;
+        // $beritaDatas->judul = $request->judul;
+        // $beritaDatas->isi = $request->isi;
+        // $beritaDatas->gambar = $request->gambar;
+
+        // $beritaDatas->save();
+
+        // return redirect('/admin/berita')->with('status', 'Data Berhasil Ditambahkan!');
+    }
 }

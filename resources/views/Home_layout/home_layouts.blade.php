@@ -84,6 +84,32 @@
 
     <!-- Template Main JS File -->
     <script src="{{ asset('js/main.js') }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Select both carousels
+            var carousels = document.querySelectorAll('.carousel');
+
+            // Iterate through each carousel
+            carousels.forEach(function(carousel) {
+                // Add event listener for mouse enter
+                carousel.addEventListener('mouseenter', function() {
+                    this.carousel.pause();
+                });
+                // Add event listener for mouse leave
+                carousel.addEventListener('mouseleave', function() {
+                    this.carousel.cycle();
+                });
+
+                // Initialize the carousel
+                new bootstrap.Carousel(carousel, {
+                    interval: 5000,
+                    pause: false
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

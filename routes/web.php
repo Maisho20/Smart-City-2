@@ -42,3 +42,6 @@ Route::get('/admin_dokumen', [adminDokumenController::class, 'index'])->name('ad
 
 Route::get('/admin_berita/create', [adminBeritaController::class, 'create'])->name('admin_berita.create');
 Route::post('/admin_berita/store', [adminBeritaController::class, 'store'])->name('admin_berita.store');
+
+Route::get('/admin_dokumen/create', [adminDokumenController::class, 'create'])->name('admin_dokumen.create');
+Route::post('/admin_dokumen/store', [adminDokumenController::class, 'store'])->name('admin_dokumen.store');

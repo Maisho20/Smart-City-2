@@ -23,20 +23,24 @@ class adminBeritaController extends Controller
 
     public function store(Request $request)
     {
-        dd($request->all());
-        // $request->validate([
-        //     'judul' => 'required',
-        //     'isi' => 'required',
-        //     'gambar' => 'required',
-        // ]);
+        // dd($request);
+        $request->validate([
+            'gambar' => 'required|mimes:jpg,png,jpeg|max:2048',
+            'deskripsi' => 'required',
+            'link' => 'required',
+        ]);
 
-        // $beritaDatas = new DataBerita;
-        // $beritaDatas->judul = $request->judul;
-        // $beritaDatas->isi = $request->isi;
-        // $beritaDatas->gambar = $request->gambar;
+        $berita = new DataBerita();
 
-        // $beritaDatas->save();
+        $file = $request->file('gambar');
+        $fileName = 'img/berita/' . time() . '.' . $file->getClientOriginalExtension();
+        $file->storeAs('/public/', $fileName);
 
-        // return redirect('/admin/berita')->with('status', 'Data Berhasil Ditambahkan!');
+        $berita->gambar = $fileName;
+        $berita->deskripsi = $request->deskripsi;
+        $berita->link = $request->link;
+        $berita->save();
+
+        return redirect()->route('admin_berita')->with('Berhasil tambah berita!');
     }
 }

@@ -10,8 +10,7 @@ class DataBerita extends Model
     use HasFactory;
 
     protected $table = 'data_beritas';
-
-    protected $guarded = [
+    protected $fillable = [
         'gambar',
         'deskripsi',
         'link',

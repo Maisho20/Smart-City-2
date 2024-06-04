@@ -21,7 +21,8 @@
                                         <div class="d-flex justify-content-between align-items-center mb-2">
                                             <h4 class="card-title m-0 align-items-center">Dokumen Smart City</h4>
 
-                                            <a href="" class="btn btn-primary align-self-center">
+                                            <a href="{{ route('admin_dokumen.create') }}"
+                                                class="btn btn-primary align-self-center">
                                                 <i class="fas fa-plus"></i>
                                                 Tambah data
                                             </a>

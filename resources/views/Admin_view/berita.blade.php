@@ -48,11 +48,15 @@
                                                                 <td>{{ $beritaData->deskripsi }}</td>
                                                                 <td>{{ $beritaData->link }}</td>
                                                                 <td>
-                                                                    <a href="" class="btn btn-success">
+                                                                    <a href="{{ route('admin_berita.edit', $beritaData->id) }}"
+                                                                        class="btn btn-success">
                                                                         <i class="fas fa-pen"></i>
                                                                         Edit
                                                                     </a>
-                                                                    <a href="" class="btn btn-danger">
+                                                                    <a href="{{ route('admin_berita.delete', $beritaData->id) }} method="POST"
+                                                                        class="btn btn-danger">
+                                                                        @csrf
+                                                                        @method('DELETE')
                                                                         <i class="fas fa-trash-can"></i>
                                                                         Delete
                                                                     </a>

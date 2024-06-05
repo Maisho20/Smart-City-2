@@ -16,25 +16,25 @@ class DataDokumenSeeder extends Seeder
         DB::table('data_dokumens')->insert([
             'judul' => 'Dokumen 1',
             'deskripsi' => 'Deskripsi Dokumen 1',
-            'file' => "asset('img/Dokumen berisikan tentang informasi Smart City.pdf')",
+            'file' => "Dokumen berisikan tentang informasi Smart City.pdf",
         ]);
 
         DB::table('data_dokumens')->insert([
             'judul' => 'Dokumen 2',
             'deskripsi' => 'Deskripsi Dokumen 2',
-            'file' => "asset('img/Dokumen berisikan tentang informasi Smart City.pdf')",
+            'file' => "Dokumen berisikan tentang informasi Smart City.pdf",
         ]);
 
         DB::table('data_dokumens')->insert([
             'judul' => 'Dokumen 3',
             'deskripsi' => 'Deskripsi Dokumen 3',
-            'file' => "asset('img/Dokumen berisikan tentang informasi Smart City.pdf')",
+            'file' => "LAPORAN_EVALUASI_SC_2022_Kab Malang.pdf",
         ]);
 
         DB::table('data_dokumens')->insert([
             'judul' => 'Dokumen 4',
             'deskripsi' => 'Deskripsi Dokumen 4',
-            'file' => "asset('img/Dokumen berisikan tentang informasi Smart City.pdf')",
+            'file' => "LAPORAN_EVALUASI_SC_2022_Kab Malang.pdf",
         ]);
     }
 }

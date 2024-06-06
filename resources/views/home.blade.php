@@ -221,7 +221,7 @@
                                 </br>
                                 <b class="">Evaluasi tahun 2022 dan 2023</b>
                                 </br>
-                                <a href="#" target="blank"> Selengkapnya </a>
+                                <a href="{{route('penilaian')}}" target="_blank"> Selengkapnya </a>
                             </div>
 
                             <img class="img-fluid rounded" src="{{ asset('img/penilaian/penilaian-2023.jpg') }}"

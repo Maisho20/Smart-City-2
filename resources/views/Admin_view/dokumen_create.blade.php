@@ -19,7 +19,7 @@
                             <div class="col-12 grid-margin stretch-card mt-3">
 
                                 <div class="card">
-                                    <form class="forms-sample" action="{{ route('admin_berita.store') }}" method="POST"
+                                    <form class="forms-sample" action="{{ route('admin_dokumen.store') }}" method="POST"
                                         enctype="multipart/form-data">
                                         @csrf
                                         <div class="card-body">
@@ -29,6 +29,11 @@
                                                 <label for="exampleInputName1">Judul</label>
                                                 <input type="text" name="judul" class="form-control text-white"
                                                     id="judul" placeholder="Judul dokumen">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputName1">Gambar</label>
+                                                <input type="file" name="image" class="form-control text-white"
+                                                    id="image">
                                             </div>
                                             <div class="form-group">
                                                 <label for="exampleInputEmail3">Deskripsi</label>

@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('data_dokumens', function (Blueprint $table) {
             $table->id()->autoIncrement()->unique();
+            $table->string('image');
             $table->string('judul');
             $table->string('deskripsi');
             $table->string('file');

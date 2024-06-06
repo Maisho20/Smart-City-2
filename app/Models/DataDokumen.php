@@ -12,6 +12,7 @@ class DataDokumen extends Model
     protected $table = 'data_dokumens';
 
     protected $fillable = [
+        'image',
         'judul',
         'deskripsi',
         'file',

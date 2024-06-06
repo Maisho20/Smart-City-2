@@ -289,12 +289,12 @@
                         <div class="card p-3 border-4"
                             style="border-image: linear-gradient(45deg, rgb(97, 124, 245), rgb(140, 228, 243))1;
                         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                            <img src="img/tampilan dokumen.jpg" class="card-img-top">
+                            <img src="{{ asset('storage/' . $doc->image) }}" class="card-img-top">
                             {{-- linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1 --}}
                             <div class="p-3" {{-- style="background-color: skyblue"1 --}}>
                                 {{-- <i class="ri-file-text-line" style="font-size: 3.5rem;"></i> --}}
                                 <h5>
-                                    <a href="{{ asset('docs/' . $doc->file) }}" target="_blank" class="text-dark">
+                                    <a href="{{ asset('storage/' . $doc->file) }}" target="_blank" class="text-dark">
                                         {{ $doc->judul }}
                                     </a> {{-- $doc['judul'] }} --}}
                                 </h5>

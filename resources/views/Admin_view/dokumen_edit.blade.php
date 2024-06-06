@@ -16,39 +16,43 @@
                                 <h2 class="mb-1 mb-sm-0">Selamat Datang di Halaman Admin</h2>
                             </div>
 
-                            <div class="col-12 grid-margin stretch-card mt-3">
-
+                            <div class="col-12 grid-margin stretch-card">
                                 <div class="card">
-                                    <form class="forms-sample" action="{{ route('admin_dokumen.store') }}" method="POST"
-                                        enctype="multipart/form-data">
+                                    <form class="forms-sample" action="{{ route('admin_dokumen.update', $dokumen->id) }}"
+                                        method="POST" enctype="multipart/form-data">
                                         @csrf
+                                        @method('PUT')
                                         <div class="card-body">
-                                            <h4 class="card-title">Tambah Dokumen Smart City</h4>
+                                            <h4 class="card-title">Edit Dokumen Smart City</h4>
 
                                             <div class="form-group">
-                                                <label for="exampleInputName1">Judul</label>
+                                                <label for="judul">Judul</label>
                                                 <input type="text" name="judul" class="form-control text-white"
-                                                    id="judul" placeholder="Judul dokumen">
+                                                    id="judul" value="{{ $dokumen->judul }}" placeholder="judul">
                                             </div>
                                             <div class="form-group">
-                                                <label for="exampleInputName1">Gambar</label>
-                                                <input type="file" name="image" class="form-control text-white"
-                                                    id="image">
+                                                <label for="gambar">Gambar</label>
+                                                <input type="file" name="gambar" class="form-control text-white"
+                                                    id="gambar">
+                                                @if ($dokumen->image)
+                                                    <img src="{{ asset('storage/' . $dokumen->image) }}" alt="Current Image"
+                                                        class="img-fluid mt-2" width="200">
+                                                @endif
                                             </div>
                                             <div class="form-group">
-                                                <label for="exampleInputEmail3">Deskripsi</label>
+                                                <label for="deskripsi">Deskripsi</label>
                                                 <input type="text" name="deskripsi" class="form-control text-white"
-                                                    id="deskripsi" placeholder="Deskripsi">
+                                                    id="deskripsi" value="{{ $dokumen->deskripsi }}"
+                                                    placeholder="Deskripsi">
                                             </div>
                                             <div class="form-group">
-                                                <label for="exampleInputPassword4">File</label>
+                                                <label for="file">File</label>
                                                 <input type="file" name="file" class="form-control text-white"
-                                                    id="file">
+                                                    id="file" value="{{ $dokumen->file }}">
                                             </div>
 
                                             <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                                            <button class="btn btn-dark">Cancel</button>
-
+                                            <a href="{{ route('admin_dokumen') }}" class="btn btn-dark">Cancel</a>
                                         </div>
                                     </form>
                                 </div>

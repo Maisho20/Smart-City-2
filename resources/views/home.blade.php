@@ -254,87 +254,19 @@
                 @foreach ($news as $berita)
                     <div class="col-lg-3 col-md-5">
                         <div class="card rounded-5" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                            <img src="{{ asset($berita['gambar']) }}" class="card-img-top">
+                            <img src="{{ asset('storage/' . $berita->gambar) }}" class="card-img-top">
                             <div class="card-body">
                                 <p class="card-text">
-                                    {{ $berita['deskripsi'] }}
+                                    {{ $berita->deskripsi }}
                                 </p>
-                                <a href="{{ asset($berita['link']) }}" target="_blank"
-                                    class="btn btn-primary float-end">Baca lebih
+                                <a href="{{ $berita->link }}" target="_blank" class="btn btn-primary float-end">Baca
+                                    lebih
                                     lengkap</a>
                             </div>
                         </div>
                     </div>
                 @endforeach
                 {{-- @endfor --}}
-
-                {{-- @for ($i = 0; $i < 8; $i++)
-                    <div class="col-lg-3 col-md-5">
-                        <div class="card rounded-5">
-                            <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
-                                class="card-img-top">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of
-                                    the card's content.
-                                </p>
-                                <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
-                            </div>
-                        </div>
-                    </div>
-                @endfor --}}
-
-                {{-- <div class="col-lg-3 col-md-5">
-                    <div class="card rounded-5">
-                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
-                            class="card-img-top">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </p>
-                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-5">
-                    <div class="card rounded-5">
-                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
-                            class="card-img-top">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </p>
-                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-5">
-                    <div class="card rounded-5">
-                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
-                            class="card-img-top">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </p>
-                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-5">
-                    <div class="card rounded-5">
-                        <img src="https://media.istockphoto.com/id/1369150014/vector/breaking-news-with-world-map-background-vector.jpg?s=612x612&w=0&k=20&c=9pR2-nDBhb7cOvvZU_VdgkMmPJXrBQ4rB1AkTXxRIKM="
-                            class="card-img-top">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                            </p>
-                            <a href="#" class="btn btn-primary float-end">Baca lebih lengkap</a>
-                        </div>
-                    </div>
-                </div> --}}
 
             </div>
         </div>
@@ -350,35 +282,36 @@
             </header>
 
             <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3" data-aos="fade-up">
-                @for ($i = 0; $i < 3; $i++)
-                    @foreach ($dokumen as $doc)
-                        <div class="col-lg-2 col-md-2">
-                            <div class="card p-3 border-4"
-                                style="border-image: linear-gradient(45deg, rgb(97, 124, 245), rgb(140, 228, 243))1;
+                {{-- @for ($i = 0; $i < 3; $i++) --}}
+                @foreach ($dokumen as $doc)
+                    {{-- @dd($doc) --}}
+                    <div class="col-lg-2 col-md-2">
+                        <div class="card p-3 border-4"
+                            style="border-image: linear-gradient(45deg, rgb(97, 124, 245), rgb(140, 228, 243))1;
                         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                                <img src="img/tampilan dokumen.jpg" class="card-img-top">
-                                {{-- linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1 --}}
-                                <div class="p-3" {{-- style="background-color: skyblue"1 --}}>
-                                    {{-- <i class="ri-file-text-line" style="font-size: 3.5rem;"></i> --}}
-                                    <h5>
-                                        <a href="{{ asset($doc['judul']) }}" target="blank">
-                                            judul
-                                        </a> {{-- $doc['judul'] }} --}}
-                                    </h5>
-                                </div>
-                                {{-- <div class="card-body">
+                            <img src="{{ asset('storage/' . $doc->image) }}" class="card-img-top">
+                            {{-- linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1 --}}
+                            <div class="p-3" {{-- style="background-color: skyblue"1 --}}>
+                                {{-- <i class="ri-file-text-line" style="font-size: 3.5rem;"></i> --}}
+                                <h5>
+                                    <a href="{{ asset('storage/' . $doc->file) }}" target="_blank" class="text-dark">
+                                        {{ $doc->judul }}
+                                    </a> {{-- $doc['judul'] }} --}}
+                                </h5>
+                            </div>
+                            {{-- <div class="card-body">
                                 {{-- <p class="card-text">
                                     {{ $doc['deskripsi'] }}
                                 </p> --}}
-                                {{-- <a href="https://www.kompas.com/tag/malang" target="blank" class="btn btn-primary float-end"> --}}
-                                {{-- <a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary-2 float-end">
+                            {{-- <a href="https://www.kompas.com/tag/malang" target="blank" class="btn btn-primary float-end"> --}}
+                            {{-- <a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary-2 float-end">
                                     Lihat dokumen
                                 </a>
                             </div> --}}
-                            </div>
                         </div>
-                    @endforeach
-                @endfor
+                    </div>
+                @endforeach
+                {{-- @endfor --}}
 
                 {{-- <div class="col">
                     <div class="p-3 border" style="background-color: rgba(136, 235, 238, 0.74)">

@@ -34,6 +34,7 @@
                                                     <tr class="text-center">
                                                         <th> No </th>
                                                         <th> Judul </th>
+                                                        <th> Gambar </th>
                                                         <th> Deskripsi </th>
                                                         <th> File </th>
                                                         <th> Action </th>
@@ -45,17 +46,27 @@
                                                             <tr>
                                                                 <td>{{ $dokumenData->id }}</td>
                                                                 <td>{{ $dokumenData->judul }}</td>
+                                                                <td>{{ $dokumenData->image }}</td>
                                                                 <td>{{ $dokumenData->deskripsi }}</td>
                                                                 <td>{{ $dokumenData->file }}</td>
                                                                 <td>
-                                                                    <a href="" class="btn btn-success">
-                                                                        <i class="fas fa-pen"></i>
-                                                                        Edit
-                                                                    </a>
-                                                                    <a href="" class="btn btn-danger">
-                                                                        <i class="fas fa-trash-can"></i>
-                                                                        Delete
-                                                                    </a>
+                                                                    <div class="d-flex flex-row">
+                                                                        <a href="{{ route('admin_dokumen.edit', $dokumenData->id) }}"
+                                                                            class="btn btn-success mr-2">
+                                                                            <i class="fas fa-pen"></i>
+                                                                            Edit
+                                                                        </a>
+                                                                        <form
+                                                                            action="{{ route('admin_dokumen.delete', $dokumenData->id) }}"
+                                                                            method="POST">
+                                                                            @csrf
+                                                                            @method('DELETE')
+                                                                            <button type="submit" class="btn btn-danger"
+                                                                                onclick="return confirm('Apakah Ingin hapus?')">
+                                                                                <i class="fas fa-trash-can"></i>
+                                                                                Delete</button>
+                                                                        </form>
+                                                                    </div>
                                                                 </td>
                                                             </tr>
                                                         @endforeach

@@ -48,14 +48,25 @@
                                                                 <td>{{ $beritaData->deskripsi }}</td>
                                                                 <td>{{ $beritaData->link }}</td>
                                                                 <td>
-                                                                    <a href="" class="btn btn-success">
-                                                                        <i class="fas fa-pen"></i>
-                                                                        Edit
-                                                                    </a>
-                                                                    <a href="" class="btn btn-danger">
-                                                                        <i class="fas fa-trash-can"></i>
-                                                                        Delete
-                                                                    </a>
+                                                                    <div class="d-flex flex-row ">
+                                                                        <a href="{{ route('admin_berita.edit', $beritaData->id) }}"
+                                                                            class="btn btn-success mr-2">
+                                                                            <i class="fas fa-pen"></i>
+                                                                            Edit
+                                                                        </a>
+                                                                        <form
+                                                                            action="{{ route('admin_berita.delete', $beritaData->id) }}"
+                                                                            method="POST">
+                                                                            @csrf
+                                                                            @method('DELETE')
+                                                                            <button type="submit" class="btn btn-danger"
+                                                                                onclick="return confirm('Apakah Ingin hapus?')">
+                                                                                <i class="fas fa-trash-can"></i>
+                                                                                Delete
+                                                                            </button>
+                                                                        </form>
+                                                                    </div>
+
                                                                 </td>
                                                             </tr>
                                                         @endforeach

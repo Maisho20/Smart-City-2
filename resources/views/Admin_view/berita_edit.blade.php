@@ -17,38 +17,36 @@
                             </div>
 
                             <div class="col-12 grid-margin stretch-card mt-3">
-
                                 <div class="card">
-                                    <form class="forms-sample" action="{{ route('admin_dokumen.store') }}" method="POST"
-                                        enctype="multipart/form-data">
+                                    <form class="forms-sample" action="{{ route('admin_berita.update', $berita->id) }}"
+                                        method="POST" enctype="multipart/form-data">
                                         @csrf
+                                        @method('PUT')
                                         <div class="card-body">
-                                            <h4 class="card-title">Tambah Dokumen Smart City</h4>
+                                            <h4 class="card-title">Edit Berita Smart City</h4>
 
                                             <div class="form-group">
-                                                <label for="exampleInputName1">Judul</label>
-                                                <input type="text" name="judul" class="form-control text-white"
-                                                    id="judul" placeholder="Judul dokumen">
+                                                <label for="gambar">Gambar</label>
+                                                <input type="file" name="gambar" class="form-control text-white"
+                                                    id="gambar">
+                                                @if ($berita->gambar)
+                                                    <img src="{{ asset('storage/' . $berita->gambar) }}" alt="Current Image"
+                                                        class="img-fluid mt-2" width="200">
+                                                @endif
                                             </div>
                                             <div class="form-group">
-                                                <label for="exampleInputName1">Gambar</label>
-                                                <input type="file" name="image" class="form-control text-white"
-                                                    id="image">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="exampleInputEmail3">Deskripsi</label>
+                                                <label for="deskripsi">Deskripsi</label>
                                                 <input type="text" name="deskripsi" class="form-control text-white"
-                                                    id="deskripsi" placeholder="Deskripsi">
+                                                    id="deskripsi" value="{{ $berita->deskripsi }}" placeholder="Deskripsi">
                                             </div>
                                             <div class="form-group">
-                                                <label for="exampleInputPassword4">File</label>
-                                                <input type="file" name="file" class="form-control text-white"
-                                                    id="file">
+                                                <label for="link">Link</label>
+                                                <input type="text" name="link" class="form-control text-white"
+                                                    id="link" value="{{ $berita->link }}" placeholder="Link">
                                             </div>
 
                                             <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                                            <button class="btn btn-dark">Cancel</button>
-
+                                            <a href="{{ route('admin_berita') }}" class="btn btn-dark">Cancel</a>
                                         </div>
                                     </form>
                                 </div>

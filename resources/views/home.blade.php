@@ -214,21 +214,32 @@
                     <div class="rounded tab-content align-items-center">
                         <div class="tab-pane fade show active" id="tab1">
 
-                            <div class="col py-3" data-aos="fade-right">
+                            <div class="col p-3" data-aos="fade-right">
                                 <img class="img-fluid rounded mb-3"
-                                    src="{{ asset('img/penilaian/penilaian-eval-kabMalang.jpg') }}"
+                                    src="{{ asset('img/penilaian/hasil perbandingan 2022.jpg') }}"
                                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
-                                </br>
-                                <b class="">Evaluasi tahun 2022 dan 2023</b>
-                                </br>
-                                <a href="{{route('penilaian')}}" target="_blank"> Selengkapnya </a>
+                                <br>
+                                <b>Evaluasi tahun 2022</b>
+                                <br>
+                                <a href="{{ route('penilaian') }}" target="_blank"> Selengkapnya </a>
                             </div>
 
                             <img class="img-fluid rounded" src="{{ asset('img/penilaian/penilaian-2023.jpg') }}"
                                 alt="" srcset="">
                         </div>
                         <!-- End Tab 1 Content -->
+
+                        <!-- Start Tab 2 Content -->
                         <div class="tab-pane fade show" id="tab2">
+                            <div class="col p-3" data-aos="fade-right">
+                                <img class="img-fluid rounded mb-3"
+                                    src="{{ asset('img/penilaian/penilaian-eval-kabMalang.jpg') }}" alt="">
+                                <br>
+                                <b>Evaluasi tahun 2023</b>
+                                <br>
+                                <a href="" target="_blank">Selengkapnya</a>
+                            </div>
+
                             <img class="img-fluid rounded" src="{{ asset('img/penilaian/penilaian-2023.jpg') }}"
                                 alt="" srcset="">
                         </div>

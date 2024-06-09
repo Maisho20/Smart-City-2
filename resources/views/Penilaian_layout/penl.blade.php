@@ -81,12 +81,6 @@
     <!-- End Hero -->
 
     <!-- ======= Features Section ======= -->
-    @yield('tujuan')
-    <!-- End Features Section -->
-
-    @yield('gambar')
-
-    <!-- ======= Features Section ======= -->
     @yield('kendala')
     <!-- End Features Section -->
 

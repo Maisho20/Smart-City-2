@@ -36,13 +36,32 @@
                         <div id="carouselGambar" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel"
                             data-bs-touch="true" data-bs-interval="5000">
                             <div class="carousel-inner">
+
+                                {{-- gambar 1 --}}
                                 <div class="carousel-item active" data-bs-interval="5000">
-                                    <img src="{{ asset('img/florawisata.jpg') }}" class="d-block w-100 img-fluid rounded"
+                                    <img src="{{ asset('img/about/aboutus.jpg') }}" class="d-block w-100 img-fluid rounded"
                                         alt="" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                                 </div>
+
+                                {{-- gambar 2 --}}
                                 <div class="carousel-item" data-bs-interval="5000">
-                                    <img src="{{ asset('img/aboutus.jpg') }}" class="d-block w-100 img-fluid rounded"
-                                        alt="" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                                    <img src="{{ asset('img/about/BOONPRING.jpg') }}"
+                                        class="d-block w-100 img-fluid rounded" alt=""
+                                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                                </div>
+
+                                {{-- Gambar 3 --}}
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="{{ asset('img/about/Caffe Dancok.jpeg') }}"
+                                        class="d-block w-100 img-fluid rounded" alt=""
+                                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                                </div>
+
+                                {{-- Gambar 4 --}}
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="{{ asset('img/about/Tanjung Penyu.jpg') }}"
+                                        class="d-block w-100 img-fluid rounded" alt=""
+                                        style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                                 </div>
                             </div>
                         </div>
@@ -79,25 +98,9 @@
                                     <div id="carouselDeskripsi" class="carousel carousel-dark slide" data-bs-ride="carousel"
                                         data-bs-touch="true" data-bs-interval="5000">
                                         <div class="carousel-inner">
+
+                                            {{-- deskripsi 1 --}}
                                             <div class="carousel-item active" data-bs-interval="5000">
-                                                <p>
-                                                    Salah satu dari ciri khas Kabupaten Malang yaitu florawisata Santerra de
-                                                    Laponte yang menjadi brandingnya. Adapun pembahasan tentang Smart
-                                                    Branding dengan memberikan rekomendasi seputar wisata di Kabupaten
-                                                    Malang.
-                                                    <br>
-                                                    Dengan menguatkan Smart Branding, Kabupaten Malang dinilai telah mampu
-                                                    mengembangkan wisata untuk warga lokal ataupun luar dari Kabupaten
-                                                    Malang. Menciptakan tempat wisata yang menarik dan harga yang
-                                                    terjangkau.
-                                                    <br>
-                                                    Namun, bukan Santerra de Laponte saja yang dikembangkan. Jika menelaah
-                                                    dari Smart Branding akan lebih banyak lagi rekomendasi yang diberikan
-                                                    oleh pengelola wisata di Kabupaten Malang untuk warga lokal dan turis
-                                                    yang sedang ataupun ingin berlibur di Kabupaten Malang.
-                                                </p>
-                                            </div>
-                                            <div class="carousel-item" data-bs-interval="5000">
                                                 <p>
                                                     Terletak di Desa Sitiarjo, Kecamatan Sumber Manjing Wetan, Kabupaten
                                                     Malang. Jarak tempuh menuju Pantai 3 Warna dari pusat Kota Malang
@@ -114,6 +117,56 @@
                                                     warna, yaitu Warna biru pada bagian terdalam, hijau pada bagian
                                                     terdangkal, dan cokelat kemerahan pada pasir pantai.
                                                     <br>
+                                                </p>
+                                            </div>
+
+                                            {{-- deskripsi 2 --}}
+                                            <div class="carousel-item" data-bs-interval="5000">
+                                                <p>
+                                                    Boonpring merupakan tempat wisata yang berada di Kabupaten Malang.
+                                                    Tempat wisata ini memiliki keindahan alam yang sangat menarik. Boonpring
+                                                    merupakan tempat wisata yang sangat cocok untuk berlibur bersama
+                                                    keluarga ataupun teman.
+                                                    <br>
+                                                    Boonpring memiliki keindahan alam yang sangat menarik. Tempat ini sangat
+                                                    cocok untuk berlibur bersama keluarga ataupun teman. Boonpring memiliki
+                                                    keindahan alam yang sangat menarik. Tempat ini sangat cocok untuk
+                                                    berlibur bersama keluarga ataupun teman.
+                                                    <br>
+                                                    Boonpring memiliki keindahan alam yang sangat menarik. Tempat ini sangat
+                                                    cocok untuk berlibur bersama keluarga ataupun teman. Boonpring memiliki
+                                                    keindahan alam yang sangat menarik. Tempat ini sangat cocok untuk
+                                                    berlibur bersama keluarga ataupun teman.
+                                                </p>
+                                            </div>
+
+                                            {{-- deskripsi 3 --}}
+                                            <div class="carousel-item" data-bs-interval="5000">
+                                                <p>
+                                                    Caffe Dancok merupakan tempat wisata yang berada di Kabupaten Malang.
+                                                    Tempat wisata ini memiliki keindahan alam yang sangat menarik. Caffe
+                                                    Dancok merupakan tempat wisata yang sangat cocok untuk berlibur bersama
+                                                    keluarga ataupun teman.
+                                                    <br>
+                                                    Caffe Dancok memiliki keindahan alam yang sangat menarik. Tempat ini
+                                                    sangat cocok untuk berlibur bersama keluarga ataupun teman. Caffe Dancok
+                                                    memiliki keindahan alam yang sangat menarik. Tempat ini sangat cocok
+                                                    untuk berlibur bersama keluarga ataupun teman.
+                                                </p>
+                                            </div>
+
+                                            {{-- deskripsi 4 --}}
+                                            <div class="carousel-item" data-bs-interval="5000">
+                                                <p>
+                                                    Tanjung Penyu merupakan tempat wisata yang berada di Kabupaten Malang.
+                                                    Tempat wisata ini memiliki keindahan alam yang sangat menarik. Tanjung
+                                                    Penyu merupakan tempat wisata yang sangat cocok untuk berlibur bersama
+                                                    keluarga ataupun teman.
+                                                    <br>
+                                                    Tanjung Penyu memiliki keindahan alam yang sangat menarik. Tempat ini
+                                                    sangat cocok untuk berlibur bersama keluarga ataupun teman. Tanjung
+                                                    Penyu memiliki keindahan alam yang sangat menarik. Tempat ini sangat
+                                                    cocok untuk berlibur bersama keluarga ataupun teman.
                                                 </p>
                                             </div>
                                         </div>
@@ -197,12 +250,15 @@
                     style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"data-aos="fade-left">
 
                     <ul class="nav nav-pills mb-3 gap-2 px-5 mx-3 justify-content-center">
+
+                        <!-- button tahun -->
                         <li>
                             <a class="nav-link active" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;"
                                 data-bs-toggle="pill" href="#tab1">
                                 Tahun 2022
                             </a>
                         </li>
+
                         <li>
                             <a class="nav-link" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;"
                                 data-bs-toggle="pill" href="#tab2">
@@ -212,8 +268,9 @@
                     </ul>
 
                     <div class="rounded tab-content align-items-center">
-                        <div class="tab-pane fade show active" id="tab1">
 
+                        <!-- Start Tab 1 Content -->
+                        <div class="tab-pane fade show active" id="tab1">
                             <div class="col p-3" data-aos="fade-right">
                                 <img class="img-fluid rounded mb-3"
                                     src="{{ asset('img/penilaian/hasil perbandingan 2022.jpg') }}"
@@ -221,7 +278,7 @@
                                 <br>
                                 <b>Evaluasi tahun 2022</b>
                                 <br>
-                                <a href="{{ route('penilaian') }}" target="_blank"> Selengkapnya </a>
+                                <a href="{{ route('penilaian_2022') }}" target="_blank"> Selengkapnya </a>
                             </div>
 
                             <img class="img-fluid rounded" src="{{ asset('img/penilaian/penilaian-2023.jpg') }}"
@@ -237,7 +294,7 @@
                                 <br>
                                 <b>Evaluasi tahun 2023</b>
                                 <br>
-                                <a href="" target="_blank">Selengkapnya</a>
+                                <a href="penilaian_2023" target="_blank">Selengkapnya</a>
                             </div>
 
                             <img class="img-fluid rounded" src="{{ asset('img/penilaian/penilaian-2023.jpg') }}"
@@ -288,56 +345,107 @@
 @section('dokumen')
     <section id="dokumen">
         <div class="container">
+            <header class="section-header pb-4 " data-aos="fade-down">
+                <p>Dokumen Smart City Kabupaten Malang</p>
+            </header>
+
+            <div class="dokumen-container" data-aos="fade-up">
+                <div class="dokumen-wrapper px-3 mx-2">
+                    @foreach ($dokumen as $doc)
+                        @for ($i = 0; $i < 5; $i++)
+                            <div class="dokumen-item">
+                                <div class="card p-3 border-4"
+                                    style="border-image: linear-gradient(45deg, rgb(97, 124, 245), rgb(140, 228, 243)) 1;
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                                    <img src="{{ asset('storage/' . $doc->image) }}" class="card-img-top">
+                                    <div class="p-3">
+                                        <h5>
+                                            <a href="{{ asset('storage/' . $doc->file) }}" target="_blank"
+                                                class="text-dark">
+                                                {{ $doc->judul }}
+                                            </a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        @endfor
+                    @endforeach
+                </div>
+            </div>
+
+            <div class="pagination-container">
+                <button class="prev-button" onclick="prevPage()">Previous</button>
+                <button class="next-button" onclick="nextPage()">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let currentPage = 0;
+        const itemsPerPage = 5;
+        const dokumenWrapper = document.querySelector('.dokumen-wrapper');
+        const dokumenItems = document.querySelectorAll('.dokumen-item');
+        const totalPages = Math.ceil(dokumenItems.length / itemsPerPage);
+
+        function updatePagination() {
+            const gap = parseInt(getComputedStyle(dokumenWrapper).gap) || 0;
+            const offset = -currentPage * (dokumenItems[0].clientWidth + gap) * itemsPerPage;
+            dokumenWrapper.style.transform = `translateX(${offset}px)`;
+
+            document.querySelector('.prev-button').disabled = currentPage === 0;
+            document.querySelector('.next-button').disabled = currentPage === totalPages - 1;
+        }
+
+        function prevPage() {
+            if (currentPage > 0) {
+                currentPage--;
+                updatePagination();
+            }
+        }
+
+        function nextPage() {
+            if (currentPage < totalPages - 1) {
+                currentPage++;
+                updatePagination();
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            dokumenWrapper.style.width =
+                `${itemsPerPage * (dokumenItems[0].clientWidth + parseInt(getComputedStyle(dokumenWrapper).gap))}px`;
+            dokumenItems.forEach((item) => {
+                item.style.width = '200px';
+            });
+            updatePagination();
+        });
+    </script>
+
+
+
+
+    {{-- <section id="dokumen">
+        <div class="container">
             <header class="section-header pb-4" data-aos="fade-down">
                 <p>Dokumen Smart City Kabupaten Malang</p>
             </header>
 
             <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3" data-aos="fade-up">
-                {{-- @for ($i = 0; $i < 3; $i++) --}}
                 @foreach ($dokumen as $doc)
-                    {{-- @dd($doc) --}}
                     <div class="col-lg-2 col-md-2">
                         <div class="card p-3 border-4"
                             style="border-image: linear-gradient(45deg, rgb(97, 124, 245), rgb(140, 228, 243))1;
                         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
                             <img src="{{ asset('storage/' . $doc->image) }}" class="card-img-top">
-                            {{-- linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1 --}}
-                            <div class="p-3" {{-- style="background-color: skyblue"1 --}}>
-                                {{-- <i class="ri-file-text-line" style="font-size: 3.5rem;"></i> --}}
+                            <div class="p-3">
                                 <h5>
                                     <a href="{{ asset('storage/' . $doc->file) }}" target="_blank" class="text-dark">
                                         {{ $doc->judul }}
-                                    </a> {{-- $doc['judul'] }} --}}
+                                    </a>
                                 </h5>
                             </div>
-                            {{-- <div class="card-body">
-                                {{-- <p class="card-text">
-                                    {{ $doc['deskripsi'] }}
-                                </p> --}}
-                            {{-- <a href="https://www.kompas.com/tag/malang" target="blank" class="btn btn-primary float-end"> --}}
-                            {{-- <a href="{{ asset($doc['file']) }}" target="blank" class="btn btn-primary-2 float-end">
-                                    Lihat dokumen
-                                </a>
-                            </div> --}}
                         </div>
                     </div>
                 @endforeach
-                {{-- @endfor --}}
-
-                {{-- <div class="col">
-                    <div class="p-3 border" style="background-color: rgba(136, 235, 238, 0.74)">
-                        <i class="ri-file-text-line" style="font-size: 3.5rem"></i>
-                        <h4>
-                            <a href="img/Dokumen berisikan tentang informasi Smart City.pdf" target="_blank">
-                            <a href="{{ asset('img/Dokumen berisikan tentang informasi Smart City.pdf') }}"
-                                target="_blank">
-                                hai
-                            </a>
-                        </h4>
-
-                    </div>
-                </div> --}}
-
             </div>
-    </section>
+    </section> --}}
 @endsection

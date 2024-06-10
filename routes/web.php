@@ -36,7 +36,8 @@ Route::get('/SmartBrand', [SmartBrandController::class, 'index'])->name('SmartBr
 Route::get('/SmartLiv', [SmartLivController::class, 'index'])->name('SmartLiv');
 Route::get('/SmartSoc', [SmartSocController::class, 'index'])->name('SmartSoc');
 Route::get('/SmartEco', [SmartEcoController::class, 'index'])->name('SmartEco');
-Route::get('/penilaian', [PenilaianController::class, 'index_2022'])->name('penilaian');
+Route::get('/penilaian_2022', [PenilaianController::class, 'index_2022'])->name('penilaian_2022');
+Route::get('/penilaian_2023', [PenilaianController::class, 'index_2023'])->name('penilaian_2023');
 
 Route::get('/admin_smart', [adminController::class, 'index'])->name('admin_smart');
 Route::get('/admin_berita', [adminBeritaController::class, 'index'])->name('admin_berita');

@@ -84,7 +84,7 @@
         <div id="features" class="container" data-aos="fade-up">
             <!-- Feature Icons -->
             <div class="row feature-icons" data-aos="fade-up">
-                <h3>Tujuan <b>E-AGRIPROP</b></h3>
+                <h3>Tujuan <b>MATIC</b></h3>
                 <div class="row">
                     <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
                         <img src="{{ asset('img/features-3.png') }}" class="img-fluid p-4" alt="">

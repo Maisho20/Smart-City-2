@@ -12,7 +12,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
-                    <li><a class="nav-link scrollto" href="#features">Hasil Evaluasi 2022</a></li>
+                    <li><a class="nav-link scrollto" href="#features">Hasil Evaluasi 2023</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -28,11 +28,11 @@
             <div class="row">
                 <div class="col-lg-6 d-flex flex-column justify-content-center">
                     <h1 data-aos="fade-up">LAPORAN HASIL EVALUASI IMPLEMENTASI KOTA CERDAS (SMART CITY)
-                        TAHUN 2022 KABUPATEN MALANG
+                        TAHUN 2023 KABUPATEN MALANG
                     </h1>
                 </div>
                 <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="{{ asset('img/penilaian/hasil perbandingan 2022.jpg') }}" class="img-fluid" alt="">
+                    <img src="{{ asset('img/penilaian/penilaian-eval-kabMalang.jpg') }}" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
             <div class="row feture-tabs" data-aos="fade-up">
                 <div class="col-lg-10">
                     <h3>
-                        Hasil <b>Evaluasi</b> Tahun <b>2022</b>
+                        Hasil <b>Evaluasi</b> Tahun <b>2023</b>
                     </h3>
 
                     <!-- Tabs -->
@@ -69,7 +69,7 @@
                         </li>
                         <li>
                             <a class="nav-link" data-bs-toggle="pill" href="#tab4">IMPLEMENTASI KOTA CERDAS
-                                (SMART CITY) KABUPATEN MALANG 2022
+                                (SMART CITY) KABUPATEN MALANG 2023
 
                             </a>
                         </li>
@@ -142,8 +142,9 @@
                         </div>
 
                         <div class="tab-pane fade show" id="tab4">
-                            <embed src="{{ asset('docs/LAPORAN_EVALUASI_SC_2022_Kab Malang.pdf') }}" type="application/pdf"
-                                style="width: 100%; height: 100vh">
+                            <embed
+                                src="{{ asset('docs/Kabupaten Malang - Laporan Evaluasi Smart City 2023 Tahap II.pdf') }}"
+                                type="application/pdf" style="width: 100%; height: 100vh">
                         </div>
                         <!-- End Tab 2 Content -->
                     </div>

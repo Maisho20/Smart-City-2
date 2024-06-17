@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
             HomeSeeder::class,
             DataDokumenSeeder::class,
             DataBeritaSeeder::class,
-            AdminData::class,
+            UserSeeder::class,
         ]);
     }
 }

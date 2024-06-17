@@ -44,7 +44,7 @@ Route::get('/penilaian_2023', [PenilaianController::class, 'index_2023'])->name(
 
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
-Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::middleware('auth')->group(function(){
     Route::get('/admin_smart', [adminController::class, 'index'])->name('admin_smart');
